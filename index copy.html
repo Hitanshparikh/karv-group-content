@@ -1,0 +1,2230 @@
+    <!doctype html>
+    <!-- ✨ Updated for KARV Group - Built with Framer • https://www.framer.com/ -->
+    <html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <meta name="generator" content="Framer e0edd7a">
+        <!-- UPDATED: Title changed from FreightX to KARV Group -->
+        <title>KARV Group - Carving Your Growth Curve</title>
+        <!-- UPDATED: Description updated for KARV Group services -->
+        <meta name="description"
+            content="KARV Group provides expert consulting and operational services in port operations, freight forwarding, warehousing, and strategic partnerships in critical minerals including Rare Earth Permanent Magnets.">
+        <meta name="framer-search-index"
+            content="https://framerusercontent.com/sites/7EGS5LBob4hCVLfeedYrQY/searchIndex-yFDiqGT8TNcN.json">
+        <meta name="framer-html-plugin" content="disable">
+        <!-- UPDATED: Updated favicon and branding -->
+        <link href="https://framerusercontent.com/images/esWGq5WHeMIahECRllx5DIyNzAw.svg" rel="icon"
+            media="(prefers-color-scheme: light)">
+        <link href="https://framerusercontent.com/images/esWGq5WHeMIahECRllx5DIyNzAw.svg" rel="icon"
+            media="(prefers-color-scheme: dark)">
+        <link rel="apple-touch-icon" href="https://framerusercontent.com/images/0uHGe195lvIFrKmjo4t1FzjDoE.png">
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website">
+        <!-- UPDATED: OG title for KARV Group -->
+        <meta property="og:title" content="KARV Group - Carving Your Growth Curve">
+        <!-- UPDATED: OG description for KARV Group -->
+        <meta property="og:description"
+            content="KARV Group provides expert consulting and operational services in port operations, freight forwarding, warehousing, and strategic partnerships in critical minerals including Rare Earth Permanent Magnets.">
+        <meta property="og:image" content="https://framerusercontent.com/images/OV7jHjkTnPTlAn6GB9SMQC5GA.png">
+        <!-- Twitter -->
+        <meta name="twitter:card" content="summary_large_image">
+        <!-- UPDATED: Twitter title for KARV Group -->
+        <meta name="twitter:title" content="KARV Group - Carving Your Growth Curve">
+        <!-- UPDATED: Twitter description for KARV Group -->
+        <meta name="twitter:description"
+            content="KARV Group provides expert consulting and operational services in port operations, freight forwarding, warehousing, and strategic partnerships in critical minerals including Rare Earth Permanent Magnets.">
+        <meta name="twitter:image" content="https://framerusercontent.com/images/OV7jHjkTnPTlAn6GB9SMQC5GA.png">
+
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <meta name="robots" content="max-image-preview:large">
+        <!-- UPDATED: Canonical URL updated -->
+        <link rel="canonical" href="https://www.karv-group.com/">
+        <meta property="og:url" content="https://www.karv-group.com/">
+        
+        <!-- Google Fonts for Premium Design -->
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+        
+        <!-- JavaScript for pronunciation feature -->
+        <script>
+            function playPronunciation() {
+                // Use Web Speech API to pronounce "Curve"
+                if ('speechSynthesis' in window) {
+                    const utterance = new SpeechSynthesisUtterance('Curve');
+                    utterance.rate = 0.8;
+                    utterance.pitch = 1;
+                    utterance.volume = 0.8;
+                    speechSynthesis.speak(utterance);
+                } else {
+                    // Fallback message if speech synthesis is not supported
+                    alert('KARV is pronounced as "Curve"');
+                }
+            }
+        </script>
+        
+        <!-- Unified Theme Styles -->
+        <style>
+            :root {
+                /* Unified Blue & Gold Color Scheme */
+                --primary-blue: #1E3A8A;
+                --medium-blue: #2563EB;
+                --light-blue: #3B82F6;
+                --extra-light-blue: #DBEAFE;
+                --ultra-light-blue: #EFF6FF;
+                
+                --primary-gold: #D97706;
+                --medium-gold: #F59E0B;
+                --light-gold: #FBBF24;
+                --extra-light-gold: #FEF3C7;
+                --ultra-light-gold: #FFFBEB;
+                
+                /* Text Colors */
+                --text-primary: #1F2937;
+                --text-secondary: #4B5563;
+                --text-muted: #6B7280;
+                --text-light: #9CA3AF;
+                
+                /* Background Colors */
+                --bg-primary: #FFFFFF;
+                --bg-secondary: #F8FAFC;
+                --bg-accent: var(--ultra-light-blue);
+                
+                /* Border & Shadow */
+                --border-light: #E5E7EB;
+                --border-medium: #D1D5DB;
+                --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+                --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+                --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+                --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+                
+                /* Gradients */
+                --gradient-primary: linear-gradient(135deg, var(--primary-blue) 0%, var(--medium-blue) 100%);
+                --gradient-gold: linear-gradient(135deg, var(--primary-gold) 0%, var(--medium-gold) 100%);
+                --gradient-blue-gold: linear-gradient(135deg, var(--primary-blue) 0%, var(--medium-gold) 100%);
+                --gradient-light: linear-gradient(135deg, var(--ultra-light-blue) 0%, var(--ultra-light-gold) 100%);
+            }
+            
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            
+            body {
+                font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+                line-height: 1.7;
+                color: var(--text-primary);
+                overflow-x: hidden;
+                background: var(--bg-primary);
+            }
+            
+            /* Enhanced Typography */
+            h1, h2, h3, h4, h5, h6 {
+                font-family: 'Playfair Display', serif;
+                font-weight: 600;
+                letter-spacing: -0.025em;
+                color: var(--text-primary);
+                line-height: 1.2;
+            }
+            
+            .karv-logo {
+                font-family: 'Playfair Display', serif;
+                font-size: 2.2rem;
+                font-weight: 700;
+                color: var(--primary-blue);
+                letter-spacing: 3px;
+                text-shadow: 0 2px 4px rgba(30, 58, 138, 0.1);
+            }
+            
+            /* Enhanced Animations */
+            @keyframes fadeInUp {
+                from { 
+                    opacity: 0; 
+                    transform: translateY(30px); 
+                }
+                to { 
+                    opacity: 1; 
+                    transform: translateY(0); 
+                }
+            }
+            
+            @keyframes slideInLeft {
+                from { 
+                    opacity: 0; 
+                    transform: translateX(-30px); 
+                }
+                to { 
+                    opacity: 1; 
+                    transform: translateX(0); 
+                }
+            }
+            
+            @keyframes slideInRight {
+                from { 
+                    opacity: 0; 
+                    transform: translateX(30px); 
+                }
+                to { 
+                    opacity: 1; 
+                    transform: translateX(0); 
+                }
+            }
+            
+            @keyframes float {
+                0%, 100% { transform: translateY(0px) rotate(0deg); }
+                25% { transform: translateY(-10px) rotate(2deg); }
+                50% { transform: translateY(-5px) rotate(0deg); }
+                75% { transform: translateY(-15px) rotate(-2deg); }
+            }
+            
+            @keyframes pulse {
+                0%, 100% { opacity: 1; }
+                50% { opacity: 0.7; }
+            }
+            
+            @keyframes scaleIn {
+                from { 
+                    opacity: 0; 
+                    transform: scale(0.8); 
+                }
+                to { 
+                    opacity: 1; 
+                    transform: scale(1); 
+                }
+            }
+            
+            .animate-fadeInUp {
+                animation: fadeInUp 0.8s ease-out forwards;
+            }
+            
+            .animate-slideInLeft {
+                animation: slideInLeft 0.8s ease-out forwards;
+            }
+            
+            .animate-slideInRight {
+                animation: slideInRight 0.8s ease-out forwards;
+            }
+            
+            .animate-float {
+                animation: float 6s ease-in-out infinite;
+            }
+            
+            .animate-pulse {
+                animation: pulse 2s ease-in-out infinite;
+            }
+            
+            .animate-scaleIn {
+                animation: scaleIn 0.8s ease-out forwards;
+            }
+            
+            /* Enhanced Button Styles */
+            .btn-primary {
+                display: inline-block;
+                background: var(--gradient-primary);
+                color: white;
+                padding: 1rem 2rem;
+                border-radius: 50px;
+                text-decoration: none;
+                font-weight: 600;
+                font-size: 1rem;
+                transition: all 0.3s ease;
+                border: none;
+                cursor: pointer;
+                box-shadow: var(--shadow-md);
+                position: relative;
+                overflow: hidden;
+            }
+            
+            .btn-primary::before {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: -100%;
+                width: 100%;
+                height: 100%;
+                background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
+                transition: left 0.6s ease;
+            }
+            
+            .btn-primary:hover::before {
+                left: 100%;
+            }
+            
+            .btn-primary:hover {
+                transform: translateY(-2px);
+                box-shadow: var(--shadow-lg);
+            }
+            
+            .btn-secondary {
+                display: inline-block;
+                background: white;
+                color: var(--primary-blue);
+                border: 2px solid var(--primary-blue);
+                padding: 1rem 2rem;
+                border-radius: 50px;
+                text-decoration: none;
+                font-weight: 600;
+                font-size: 1rem;
+                transition: all 0.3s ease;
+                cursor: pointer;
+                box-shadow: var(--shadow-sm);
+            }
+            
+            .btn-secondary:hover {
+                background: var(--primary-blue);
+                color: white;
+                transform: translateY(-2px);
+                box-shadow: var(--shadow-lg);
+            }
+            
+            /* Enhanced Card Styles */
+            .card-primary {
+                background: white;
+                border-radius: 16px;
+                padding: 2.5rem;
+                box-shadow: var(--shadow-md);
+                transition: all 0.3s ease;
+                border: 1px solid var(--border-light);
+            }
+            
+            .card-primary:hover {
+                transform: translateY(-5px);
+                box-shadow: var(--shadow-xl);
+            }
+            
+            /* Mobile Navigation Styles */
+            .mobile-nav-toggle {
+                display: none;
+                background: none;
+                border: none;
+                font-size: 1.5rem;
+                color: var(--primary-blue);
+                cursor: pointer;
+                padding: 0.5rem;
+            }
+            
+            .nav-menu {
+                display: flex;
+                gap: 1.5rem;
+                align-items: center;
+            }
+            
+            .nav-menu.mobile-open {
+                display: flex;
+                flex-direction: column;
+                position: fixed;
+                top: 100%;
+                left: 0;
+                right: 0;
+                background: white;
+                box-shadow: var(--shadow-lg);
+                padding: 2rem;
+                gap: 1rem;
+                z-index: 1000;
+                border-top: 1px solid var(--border-light);
+            }
+            
+            /* Responsive Design */
+            @media (min-width: 769px) {
+                .tagline-desktop {
+                    display: block !important;
+                }
+            }
+            
+            @media (max-width: 1024px) {
+                .karv-logo {
+                    font-size: 1.8rem;
+                    letter-spacing: 2px;
+                }
+                
+                h1 {
+                    font-size: 3rem !important;
+                }
+                
+                h2 {
+                    font-size: 2rem !important;
+                }
+                
+                .card-primary {
+                    padding: 2rem;
+                }
+                
+                /* Grid responsive adjustments */
+                [style*="grid-template-columns: repeat(2, 1fr)"] {
+                    grid-template-columns: 1fr !important;
+                    gap: 2rem !important;
+                }
+                
+                [style*="grid-template-columns: 1fr 1fr"] {
+                    grid-template-columns: 1fr !important;
+                    gap: 2rem !important;
+                }
+                
+                /* Container padding adjustments */
+                [style*="padding: 6rem 2rem"] {
+                    padding: 4rem 1rem !important;
+                }
+            }
+            
+            @media (max-width: 768px) {
+                .mobile-nav-toggle {
+                    display: block;
+                }
+                
+                .nav-menu {
+                    display: none;
+                }
+                
+                .nav-menu.mobile-open {
+                    display: flex;
+                    animation: slideInDown 0.3s ease-out;
+                    top: 100%;
+                }
+                
+                @keyframes slideInDown {
+                    from {
+                        opacity: 0;
+                        transform: translateY(-20px);
+                    }
+                    to {
+                        opacity: 1;
+                        transform: translateY(0);
+                    }
+                }
+                
+                .karv-logo {
+                    font-size: 1.5rem;
+                    letter-spacing: 1px;
+                }
+                
+                h1 {
+                    font-size: 2.5rem !important;
+                    line-height: 1.2 !important;
+                }
+                
+                h2 {
+                    font-size: 1.8rem !important;
+                }
+                
+                h3 {
+                    font-size: 1.5rem !important;
+                }
+                
+                /* Hero section adjustments */
+                [style*="padding: 6rem 2rem"] {
+                    padding: 4rem 1rem !important;
+                }
+                
+                [style*="padding: 4rem"] {
+                    padding: 2rem !important;
+                }
+                
+                [style*="padding: 3rem"] {
+                    padding: 1.5rem !important;
+                }
+                
+                /* Button responsive */
+                .btn-primary, .btn-secondary {
+                    padding: 0.8rem 1.5rem;
+                    font-size: 0.9rem;
+                }
+                
+                /* Card responsive */
+                .card-primary {
+                    padding: 1.5rem;
+                    margin-bottom: 1rem;
+                }
+                
+                /* Image responsive */
+                [style*="height: 400px"] {
+                    height: 250px !important;
+                }
+                
+                [style*="height: 180px"] {
+                    height: 150px !important;
+                }
+                
+                /* Grid fully responsive */
+                [style*="grid-template-columns: repeat(auto-fit, minmax(420px, 1fr))"] {
+                    grid-template-columns: 1fr !important;
+                }
+                
+                [style*="grid-template-columns: repeat(auto-fit, minmax(400px, 1fr))"] {
+                    grid-template-columns: 1fr !important;
+                }
+                
+                [style*="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr))"] {
+                    grid-template-columns: 1fr !important;
+                }
+                
+                [style*="grid-template-columns: 250px 1fr"] {
+                    grid-template-columns: 1fr !important;
+                    text-align: center !important;
+                }
+                
+                /* Typography mobile adjustments */
+                [style*="font-size: 4rem"] {
+                    font-size: 2.5rem !important;
+                }
+                
+                [style*="font-size: 3.5rem"] {
+                    font-size: 2.2rem !important;
+                }
+                
+                [style*="font-size: 3rem"] {
+                    font-size: 2rem !important;
+                }
+                
+                [style*="font-size: 2.5rem"] {
+                    font-size: 1.8rem !important;
+                }
+                
+                [style*="font-size: 2.2rem"] {
+                    font-size: 1.6rem !important;
+                }
+                
+                /* Spacing mobile adjustments */
+                [style*="margin: 4rem auto"] {
+                    margin: 2rem auto !important;
+                }
+                
+                [style*="margin-bottom: 4rem"] {
+                    margin-bottom: 2rem !important;
+                }
+                
+                [style*="margin-bottom: 3rem"] {
+                    margin-bottom: 1.5rem !important;
+                }
+                
+                [style*="gap: 3rem"] {
+                    gap: 1.5rem !important;
+                }
+                
+                [style*="gap: 2.5rem"] {
+                    gap: 1.5rem !important;
+                }
+            }
+            
+            @media (max-width: 480px) {
+                .karv-logo {
+                    font-size: 1.3rem;
+                    letter-spacing: 0.5px;
+                }
+                
+                .karv-logo i {
+                    font-size: 1.2rem !important;
+                    margin-right: 6px !important;
+                    margin-left: 8px !important;
+                }
+                
+                h1 {
+                    font-size: 2rem !important;
+                }
+                
+                h2 {
+                    font-size: 1.5rem !important;
+                }
+                
+                h3 {
+                    font-size: 1.3rem !important;
+                }
+                
+                /* Ultra mobile spacing */
+                [style*="padding: 4rem 1rem"] {
+                    padding: 2rem 0.5rem !important;
+                }
+                
+                [style*="padding: 3rem"] {
+                    padding: 1rem !important;
+                }
+                
+                [style*="padding: 2rem"] {
+                    padding: 1rem !important;
+                }
+                
+                [style*="padding: 1.5rem"] {
+                    padding: 1rem !important;
+                }
+                
+                /* Flex direction changes for mobile */
+                [style*="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap"] {
+                    flex-direction: column !important;
+                    align-items: center !important;
+                }
+                
+                .btn-primary, .btn-secondary {
+                    width: 100%;
+                    text-align: center;
+                    margin-bottom: 0.5rem;
+                    max-width: 300px;
+                }
+                
+                /* Header adjustments for small screens */
+                header {
+                    padding: 0.8rem 1rem !important;
+                }
+                
+                .mobile-nav-toggle {
+                    padding: 0.5rem;
+                    font-size: 1.3rem;
+                }
+            }
+            
+            /* Container max-width responsive */
+            [style*="max-width: 1400px"] {
+                max-width: 95% !important;
+            }
+            
+            [style*="max-width: 1200px"] {
+                max-width: 95% !important;
+            }
+            
+            [style*="max-width: 1100px"] {
+                max-width: 95% !important;
+            }
+            
+            [style*="max-width: 1000px"] {
+                max-width: 95% !important;
+            }
+            
+            /* Smooth scrolling */
+            html {
+                scroll-behavior: smooth;
+            }
+            
+            /* Focus styles for accessibility */
+            .btn-primary:focus,
+            .btn-secondary:focus,
+            nav a:focus {
+                outline: 2px solid var(--primary-blue);
+                outline-offset: 2px;
+            }
+        </style>
+        
+        <!-- Mobile Navigation JavaScript -->
+        <script>
+            function toggleMobileNav() {
+                const navMenu = document.querySelector('.nav-menu');
+                const mobileToggle = document.querySelector('.mobile-nav-toggle');
+                
+                navMenu.classList.toggle('mobile-open');
+                
+                // Update button icon
+                const icon = mobileToggle.querySelector('i');
+                if (navMenu.classList.contains('mobile-open')) {
+                    icon.className = 'fas fa-times';
+                } else {
+                    icon.className = 'fas fa-bars';
+                }
+            }
+            
+            // Close mobile menu when clicking on a link
+            document.addEventListener('DOMContentLoaded', function() {
+                const navLinks = document.querySelectorAll('.nav-menu a');
+                navLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        const navMenu = document.querySelector('.nav-menu');
+                        const mobileToggle = document.querySelector('.mobile-nav-toggle i');
+                        navMenu.classList.remove('mobile-open');
+                        mobileToggle.className = 'fas fa-bars';
+                    });
+                });
+            });
+        </script>
+            <style>
+            .animate-slideInLeft {
+                animation: slideInLeft 0.8s ease-out forwards;
+            }
+            
+            .animate-slideInRight {
+                animation: slideInRight 0.8s ease-out forwards;
+            }
+            
+            .animate-float {
+                animation: float 6s ease-in-out infinite;
+            }
+            
+            .animate-pulse {
+                animation: pulse 2s ease-in-out infinite;
+            }
+            
+            .animate-scaleIn {
+                animation: scaleIn 0.6s ease-out forwards;
+            }
+            
+            /* Enhanced Buttons */
+            .btn-primary {
+                background: var(--gradient-primary);
+                color: white;
+                padding: 1rem 2rem;
+                border-radius: 12px;
+                font-weight: 600;
+                font-size: 1rem;
+                text-decoration: none;
+                border: none;
+                cursor: pointer;
+                display: inline-flex;
+                align-items: center;
+                gap: 0.5rem;
+                box-shadow: var(--shadow-md);
+                transition: all 0.3s ease;
+                position: relative;
+                overflow: hidden;
+            }
+            
+            .btn-primary::before {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: -100%;
+                width: 100%;
+                height: 100%;
+                background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+                transition: left 0.5s;
+            }
+            
+            .btn-primary:hover::before {
+                left: 100%;
+            }
+            
+            .btn-primary:hover {
+                transform: translateY(-2px);
+                box-shadow: var(--shadow-lg);
+            }
+            
+            .btn-secondary {
+                background: white;
+                color: var(--primary-blue);
+                border: 2px solid var(--primary-blue);
+                padding: 1rem 2rem;
+                border-radius: 12px;
+                font-weight: 600;
+                text-decoration: none;
+                display: inline-flex;
+                align-items: center;
+                gap: 0.5rem;
+                transition: all 0.3s ease;
+            }
+            
+            .btn-secondary:hover {
+                background: var(--primary-blue);
+                color: white;
+                transform: translateY(-2px);
+                box-shadow: var(--shadow-md);
+            }
+            
+            /* Enhanced Cards */
+            .card-primary {
+                background: white;
+                border-radius: 16px;
+                padding: 2rem;
+                box-shadow: var(--shadow-md);
+                transition: all 0.3s ease;
+                border: 1px solid var(--border-light);
+                position: relative;
+                overflow: hidden;
+            }
+            
+            .card-primary::before {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                height: 4px;
+                background: var(--gradient-primary);
+            }
+            
+            .card-primary:hover {
+                transform: translateY(-8px);
+                box-shadow: var(--shadow-xl);
+            }
+            
+            .card-gradient {
+                background: var(--gradient-light);
+                border-radius: 16px;
+                padding: 2rem;
+                border: 2px solid var(--extra-light-blue);
+                transition: all 0.3s ease;
+            }
+            
+            .card-gradient:hover {
+                transform: translateY(-4px);
+                border-color: var(--light-blue);
+                box-shadow: var(--shadow-lg);
+            }
+            
+            .btn-primary:hover {
+                background: #1E40AF;
+            }
+            
+            .btn-secondary {
+                background: white;
+                color: var(--primary-blue);
+                border: 1px solid var(--border-medium);
+            }
+            
+            .btn-secondary:hover {
+                background: var(--matte-blue);
+            }
+            
+            /* Minimal Cards */
+            .minimal-card {
+                background: white;
+                border-radius: 12px;
+                padding: 2rem;
+                box-shadow: var(--shadow-soft);
+                transition: all 0.25s ease;
+                border: 1px solid var(--border-light);
+                position: relative;
+            }
+            
+            .minimal-card:hover {
+                transform: translateY(-2px);
+                box-shadow: var(--shadow-medium);
+            }
+            
+            /* Clean Navigation */
+            nav a {
+                text-decoration: none;
+                color: var(--text-primary);
+                font-weight: 400;
+                font-size: 0.95rem;
+                position: relative;
+                transition: all 0.2s ease;
+                padding: 0.5rem 1rem;
+                border-radius: 6px;
+            }
+            
+            nav a:hover {
+                color: var(--primary-blue);
+                background: var(--matte-blue);
+            }
+            
+            /* Minimal Sections */
+            .section-minimal {
+                position: relative;
+            }
+            
+            /* Responsive design */
+            @media (max-width: 768px) {
+                .karv-logo {
+                    font-size: 1.8rem;
+                }
+                
+                nav {
+                    flex-direction: column;
+                    gap: 0.5rem !important;
+                }
+                
+                h1 {
+                    font-size: 2.5rem !important;
+                }
+                
+                h2 {
+                    font-size: 2rem !important;
+                }
+                
+                .minimal-card {
+                    padding: 1.5rem;
+                }
+            }
+            
+            /* Smooth scrolling */
+            html {
+                scroll-behavior: smooth;
+            }
+            
+            /* Minimal scrollbar */
+            ::-webkit-scrollbar {
+                width: 8px;
+            }
+            
+            ::-webkit-scrollbar-track {
+                background: var(--matte-gray);
+            }
+            
+            ::-webkit-scrollbar-thumb {
+                background: var(--border-medium);
+                border-radius: 4px;
+            }
+            
+            ::-webkit-scrollbar-thumb:hover {
+                background: var(--text-muted);
+            }
+            
+            /* Accent Colors for Different Sections */
+            .accent-blue { background: var(--matte-blue); }
+            .accent-orange { background: var(--matte-orange); }
+            .accent-red { background: var(--matte-red); }
+            .accent-yellow { background: var(--matte-yellow); }
+            
+            .text-blue { color: var(--primary-blue); }
+            .text-orange { color: var(--primary-orange); }
+            .text-red { color: var(--primary-red); }
+            .text-yellow { color: var(--primary-yellow); }
+        </style>
+        
+        <style data-framer-breakpoint-css>
+            @media(min-width: 1440px) {
+                .hidden-72rtr7 {
+                    display: none !important
+                }
+            }
+
+            @media(min-width: 810px) and (max-width: 1439px) {
+                .hidden-i49n2i {
+                    display: none !important
+                }
+            }
+
+            @media(max-width: 809px) {
+                .hidden-1thdq9s {
+                    display: none !important
+                }
+            }
+
+            @media(min-width: 1440px) {
+                .hidden-140qb12 {
+                    display: none !important
+                }
+            }
+
+            @media(min-width: 810px) and (max-width: 1439px) {
+                .hidden-nktych {
+                    display: none !important
+                }
+            }
+
+            @media(max-width: 809px) {
+                .hidden-64kd3a {
+                    display: none !important
+                }
+            }
+
+            /* UPDATED: Enhanced logo visibility */
+            .karv-logo {
+                font-size: 2.5rem !important;
+                font-weight: bold !important;
+                color: #1e40af !important;
+            }
+
+            /* UPDATED: Two entity highlight */
+            .karv-entities {
+                background: linear-gradient(135deg, #1e40af, #3b82f6);
+                color: white;
+                padding: 1rem;
+                border-radius: 8px;
+                margin: 1rem 0;
+            }
+
+            /* UPDATED: Contact info styling */
+            .contact-info {
+                background: #f8fafc;
+                padding: 2rem;
+                border-radius: 12px;
+                margin: 2rem 0;
+            }
+
+            /* UPDATED: Map container */
+            .map-container {
+                margin-top: 1rem;
+                border-radius: 8px;
+                overflow: hidden;
+            }
+        </style>
+        
+        <style data-framer-css-ssr-minified
+            data-framer-components="framer-lib-cursors-host framer-ko1Wr PropertyOverrides framer-2da3F framer-iSYfw framer-4pid7 framer-P2eJG framer-DVOB7 framer-w22JS framer-8JasP framer-n35fN framer-8db7D framer-LPgds framer-z2b5y framer-B7P9l framer-2pezJ framer-E4wk2 framer-ds2Eh framer-visHL framer-kqCcY">
+            html,
+            body,
+            #main {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box
+            }
+
+            :root {
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale
+            }
+
+            * {
+                box-sizing: border-box;
+                -webkit-font-smoothing: inherit
+            }
+
+            /* Lots of CSS styling would continue here - keeping it simplified for this demo */
+        </style>
+    </head>
+
+    <body>
+        <div id="main">
+            <div class="framer-ko1Wr framer-140qb12" data-layout-template="true" data-selection="true">
+                <div data-framer-root class="framer-DVOB7 framer-88Asn framer-ltZMN framer-QyYL1 framer-HSQ6b framer-72rtr7">
+                    
+                    <!-- Enhanced Responsive Header -->
+                    <header class="section-minimal" style="padding: 1rem 2rem; background: rgba(255, 255, 255, 0.95); backdrop-filter: blur(10px); border-bottom: 1px solid var(--border-light); position: sticky; top: 0; z-index: 1000; box-shadow: var(--shadow-md);">
+                        <div style="display: flex; justify-content: space-between; align-items: center; max-width: 1400px; margin: 0 auto; position: relative;">
+                            <!-- Logo Section -->
+                            <div style="display: flex; flex-direction: column; align-items: flex-start; flex-shrink: 0;">
+                                <div class="karv-logo animate-slideInLeft">
+                                    <i class="fas fa-chart-line" style="margin-right: 8px; color: var(--medium-gold); font-size: 1.5rem;"></i>
+                                    KARV GROUP
+                                    <i class="fas fa-volume-up" onclick="playPronunciation()" style="margin-left: 10px; color: var(--medium-gold); cursor: pointer; font-size: 0.9rem; transition: all 0.3s ease;" title="Pronounced as 'Curve'" onmouseover="this.style.color='var(--light-gold)'; this.style.transform='scale(1.2)'" onmouseout="this.style.color='var(--medium-gold)'; this.style.transform='scale(1)'"></i>
+                                </div>
+                                <div style="font-size: 0.7rem; color: var(--text-secondary); margin-top: 2px; letter-spacing: 0.5px; font-weight: 500; display: none;" class="tagline-desktop">
+                                    Port Operations | Freight Forwarding | Critical Minerals
+                                </div>
+                            </div>
+                            
+                            <!-- Mobile Navigation Toggle -->
+                            <button class="mobile-nav-toggle" onclick="toggleMobileNav()" aria-label="Toggle navigation menu">
+                                <i class="fas fa-bars"></i>
+                            </button>
+                            
+                            <!-- Desktop Navigation -->
+                            <nav class="nav-menu animate-slideInRight">
+                                <a href="#home" style="text-decoration: none; color: var(--text-primary); font-weight: 500; transition: all 0.3s ease; padding: 0.5rem 1rem; border-radius: 8px; white-space: nowrap;" onmouseover="this.style.color='var(--primary-blue)'; this.style.background='var(--extra-light-blue)'" onmouseout="this.style.color='var(--text-primary)'; this.style.background='transparent'">
+                                    Home
+                                </a>
+                                <a href="#about" style="text-decoration: none; color: var(--text-primary); font-weight: 500; transition: all 0.3s ease; padding: 0.5rem 1rem; border-radius: 8px; white-space: nowrap;" onmouseover="this.style.color='var(--primary-blue)'; this.style.background='var(--extra-light-blue)'" onmouseout="this.style.color='var(--text-primary)'; this.style.background='transparent'">
+                                    About Us
+                                </a>
+                                <a href="#services" style="text-decoration: none; color: var(--text-primary); font-weight: 500; transition: all 0.3s ease; padding: 0.5rem 1rem; border-radius: 8px; white-space: nowrap;" onmouseover="this.style.color='var(--primary-blue)'; this.style.background='var(--extra-light-blue)'" onmouseout="this.style.color='var(--text-primary)'; this.style.background='transparent'">
+                                    Services
+                                </a>
+                                <a href="#solutions" style="text-decoration: none; color: var(--text-primary); font-weight: 500; transition: all 0.3s ease; padding: 0.5rem 1rem; border-radius: 8px; white-space: nowrap;" onmouseover="this.style.color='var(--primary-blue)'; this.style.background='var(--extra-light-blue)'" onmouseout="this.style.color='var(--text-primary)'; this.style.background='transparent'">
+                                    Solutions
+                                </a>
+                                <a href="#insights" style="text-decoration: none; color: var(--text-primary); font-weight: 500; transition: all 0.3s ease; padding: 0.5rem 1rem; border-radius: 8px; white-space: nowrap;" onmouseover="this.style.color='var(--primary-blue)'; this.style.background='var(--extra-light-blue)'" onmouseout="this.style.color='var(--text-primary)'; this.style.background='transparent'">
+                                    Insights
+                                </a>
+                                <a href="#contact" class="btn-primary" style="text-decoration: none; padding: 0.7rem 1.5rem; font-size: 0.9rem; white-space: nowrap;">
+                                    <i class="fas fa-handshake" style="margin-right: 6px;"></i>
+                                    Contact Us
+                                </a>
+                            </nav>
+                        </div>
+                    </header>
+                    <!-- Enhanced Hero Section with Unified Theme -->
+                    <section id="home" class="section-minimal" style="padding: 6rem 2rem; background: var(--gradient-light); text-align: center; position: relative; overflow: hidden;">
+                        <!-- Enhanced Background Elements -->
+                        <div style="position: absolute; top: 10%; left: 8%; width: 120px; height: 120px; background: var(--gradient-primary); border-radius: 50%; opacity: 0.1;" class="animate-float"></div>
+                        <div style="position: absolute; top: 20%; right: 12%; width: 100px; height: 100px; background: var(--gradient-gold); border-radius: 50%; opacity: 0.1; animation: float 8s ease-in-out infinite reverse;"></div>
+                        <div style="position: absolute; bottom: 20%; left: 15%; width: 80px; height: 80px; background: var(--gradient-blue-gold); border-radius: 50%; opacity: 0.1; animation: float 10s ease-in-out infinite;"></div>
+                        <div style="position: absolute; top: 50%; right: 5%; width: 60px; height: 60px; background: var(--primary-blue); border-radius: 50%; opacity: 0.05; animation: float 12s ease-in-out infinite reverse;"></div>
+                        
+                        <div style="max-width: 1200px; margin: 0 auto; position: relative; z-index: 2;">
+                            <div class="animate-fadeInUp" style="margin-bottom: 2rem;">
+                                <div style="display: inline-block; background: white; color: var(--primary-blue); padding: 0.8rem 2rem; border-radius: 30px; margin-bottom: 2rem; font-size: 1rem; font-weight: 600; box-shadow: var(--shadow-md); border: 2px solid var(--extra-light-blue);">
+                                    <i class="fas fa-star" style="color: var(--medium-gold); margin-right: 8px;"></i>
+                                    Excellence in Motion Since 2024
+                                </div>
+                            </div>
+                            
+                            <h1 class="animate-fadeInUp" style="font-size: 4rem; margin-bottom: 1.5rem; font-weight: 700; line-height: 1.1; color: var(--primary-blue); animation-delay: 0.2s;">
+                                KARV Group of Companies
+                            </h1>
+                            
+                            <h2 class="animate-fadeInUp" style="font-size: 2.2rem; margin-bottom: 2rem; font-weight: 400; color: var(--primary-gold); animation-delay: 0.4s;">
+                                Crafting your Growth CURVE ~ KARV
+                            </h2>
+                            
+                            <p class="animate-fadeInUp" style="font-size: 1.3rem; margin-bottom: 3rem; max-width: 900px; margin-left: auto; margin-right: auto; line-height: 1.6; animation-delay: 0.6s; color: var(--text-secondary); font-weight: 500;">
+                                Navigating Growth Through Expertise in Ports, Logistics, Freight Forwarding and Critical Minerals value chain
+                            </p>
+                            
+                            <!-- Enhanced CTA Buttons -->
+                            <div class="animate-fadeInUp" style="margin-bottom: 5rem; animation-delay: 0.8s; display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+                                <a href="#partner" class="btn-primary" style="font-size: 1.1rem; padding: 1.2rem 2.5rem;">
+                                    <i class="fas fa-rocket" style="margin-right: 8px;"></i>
+                                    Partner with Us
+                                </a>
+                                <a href="#services" class="btn-secondary" style="font-size: 1.1rem; padding: 1.2rem 2.5rem;">
+                                    <i class="fas fa-compass" style="margin-right: 8px;"></i>
+                                    Explore Services
+                                </a>
+                            </div>
+                            
+            <!-- Hero Image Section -->
+            <div class="animate-scaleIn" style="margin-bottom: 4rem; animation-delay: 1s;">
+                <div style="position: relative; max-width: 900px; margin: 0 auto; border-radius: 20px; overflow: hidden; box-shadow: var(--shadow-xl); background: white; padding: 2rem;">
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: center;">
+                        <div>
+                            <img src="https://www.qad.com/blog/wp-content/uploads/2023/05/05.31.2023-B.jpg" alt="Modern Port Operations" style="width: 100%; height: 300px; object-fit: cover; border-radius: 16px; box-shadow: var(--shadow-md);">
+                        </div>
+                        <div style="text-align: left;">
+                            <div style="background: var(--gradient-primary); color: white; padding: 1rem 1.5rem; border-radius: 30px; display: inline-block; margin-bottom: 1.5rem; font-weight: 600; font-size: 0.9rem;">
+                                <i class="fas fa-anchor" style="margin-right: 8px;"></i>
+                                Maritime Excellence
+                            </div>
+                            <h3 style="font-size: 2.2rem; margin-bottom: 1.5rem; font-weight: 700; color: var(--primary-blue); line-height: 1.2;">Transforming Global Trade</h3>
+                            <p style="font-size: 1.1rem; color: var(--text-secondary); line-height: 1.6; margin-bottom: 2rem;">Through innovative port operations, strategic mineral consulting, and comprehensive logistics solutions that drive sustainable growth.</p>
+                            <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+                                <a href="#services" class="btn-primary" style="font-size: 1rem; padding: 0.8rem 1.5rem;">
+                                    <i class="fas fa-arrow-right" style="margin-right: 6px;"></i>
+                                    Explore Services
+                                </a>
+                                <a href="#contact" class="btn-secondary" style="font-size: 1rem; padding: 0.8rem 1.5rem;">
+                                    <i class="fas fa-phone" style="margin-right: 6px;"></i>
+                                    Get Started
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>                            <p class="animate-fadeInUp" style="font-size: 1rem; margin-bottom: 3rem; max-width: 900px; margin-left: auto; margin-right: auto; line-height: 1.6; animation-delay: 0.3s; color: var(--text-muted);">
+                                Your trusted partner in delivering transformative solutions across ports, logistics and warehousing, along with services of winning contracts in sector of critical minerals and rare earth value chain.
+                            </p>
+                            
+                            <!-- UPDATED: Minimal CTA Buttons -->
+                            <div class="animate-fadeInUp" style="margin-bottom: 4rem; animation-delay: 0.4s;">
+                                <a href="#partner" class="btn-minimal btn-primary" style="margin: 0 0.5rem; font-size: 1rem; padding: 1rem 2rem;">
+                                    Partner with Us
+                                </a>
+                                <a href="#services" class="btn-minimal btn-secondary" style="margin: 0 0.5rem; font-size: 1rem; padding: 1rem 2rem;">
+                                    Explore Our Services
+                                </a>
+                            </div>
+                            
+                            <!-- Enhanced Two Entities Section -->
+                            <div class="animate-fadeInUp" style="max-width: 1100px; margin: 4rem auto; animation-delay: 1.2s;">
+                                <h3 style="margin-bottom: 3rem; font-size: 2.5rem; text-align: center; color: var(--primary-blue); font-weight: 600;">
+                                    Our Dual Excellence Framework
+                                </h3>
+                                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; margin-bottom: 3rem;">
+                                    <!-- KARV Enterprises Card -->
+                                    <div class="card-primary animate-slideInLeft" style="background: var(--gradient-light); border: 3px solid var(--extra-light-blue); position: relative; overflow: hidden;">
+                                        <div style="position: absolute; top: 0; left: 0; right: 0; height: 6px; background: var(--gradient-primary);"></div>
+                                        <div style="text-align: center; margin-bottom: 2rem;">
+                                            <div style="width: 80px; height: 80px; background: var(--gradient-primary); border-radius: 20px; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem; box-shadow: var(--shadow-lg);">
+                                                <i class="fas fa-anchor" style="color: white; font-size: 2rem;"></i>
+                                            </div>
+                                            <h4 style="font-size: 1.5rem; font-weight: 700; color: var(--primary-blue); margin-bottom: 0.5rem;">KARV ENTERPRISES</h4>
+                                            <div style="font-size: 1.8rem; font-weight: 800; color: var(--medium-gold); margin-bottom: 1rem;">Maritime Excellence</div>
+                                        </div>
+                                        
+                                        <div style="margin-bottom: 2rem;">
+                                            <img src="https://maintenanceandcure.com/wp-content/uploads/2021/07/international-Container-Cargo-ship-in-the-ocean.jpg" alt="Port Operations" style="width: 100%; height: 180px; object-fit: cover; border-radius: 12px; margin-bottom: 1rem;">
+                                            <p style="line-height: 1.6; color: var(--text-secondary); font-size: 1rem; text-align: center;">Operational execution, logistics services, project cargo logistics, warehousing and trading opportunities in various minerals</p>
+                                        </div>
+                                        
+                                        <div style="background: white; padding: 1.5rem; border-radius: 12px; border: 2px solid var(--extra-light-blue); box-shadow: var(--shadow-sm);">
+                                            <div style="text-align: center;">
+                                                <p style="margin: 0.5rem 0; font-size: 1rem; color: var(--text-primary);">
+                                                    <span style="font-weight: 700; color: var(--primary-blue);">Founder & Owner:</span> Ruchita Gautam
+                                                </p>
+                                                <p style="margin: 0.5rem 0; font-size: 1rem; color: var(--text-primary);">
+                                                    <span style="font-weight: 700; color: var(--primary-blue);">Management Lead:</span> Amit Gautam
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- KARV Consultancy Services Card -->
+                                    <div class="card-primary animate-slideInRight" style="background: var(--ultra-light-gold); border: 3px solid var(--extra-light-gold); position: relative; overflow: hidden;">
+                                        <div style="position: absolute; top: 0; left: 0; right: 0; height: 6px; background: var(--gradient-gold);"></div>
+                                        <div style="text-align: center; margin-bottom: 2rem;">
+                                            <div style="width: 80px; height: 80px; background: var(--gradient-gold); border-radius: 20px; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem; box-shadow: var(--shadow-lg);">
+                                                <i class="fas fa-atom" style="color: white; font-size: 2rem;"></i>
+                                            </div>
+                                            <h4 style="font-size: 1.5rem; font-weight: 700; color: var(--primary-gold); margin-bottom: 0.5rem;">KARV CONSULTANCY SERVICES</h4>
+                                            <div style="font-size: 1.8rem; font-weight: 800; color: var(--primary-blue); margin-bottom: 1rem;">Future Materials</div>
+                                        </div>
+                                        
+                                        <div style="margin-bottom: 2rem;">
+                                            <img src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=400&h=200&fit=crop&crop=entropy" alt="Critical Minerals Consulting" style="width: 100%; height: 180px; object-fit: cover; border-radius: 12px; margin-bottom: 1rem;">
+                                            <p style="line-height: 1.6; color: var(--text-secondary); font-size: 1rem; text-align: center; margin-bottom: 1rem;">Expert consulting in ports, logistics, business development, strategic consulting, and navigating complex regulatory landscapes for critical minerals</p>
+                                            
+                                            <div style="display: flex; flex-wrap: wrap; gap: 8px; justify-content: center;">
+                                                <span style="background: rgba(217, 119, 6, 0.1); color: var(--primary-gold); padding: 0.4rem 0.8rem; border-radius: 20px; font-size: 0.85rem; font-weight: 600;">Research Reports</span>
+                                                <span style="background: rgba(217, 119, 6, 0.1); color: var(--primary-gold); padding: 0.4rem 0.8rem; border-radius: 20px; font-size: 0.85rem; font-weight: 600;">Strategic Partnership</span>
+                                                <span style="background: rgba(217, 119, 6, 0.1); color: var(--primary-gold); padding: 0.4rem 0.8rem; border-radius: 20px; font-size: 0.85rem; font-weight: 600;">Successful Bids</span>
+                                            </div>
+                                        </div>
+                                        
+                                        <div style="background: white; padding: 1.5rem; border-radius: 12px; border: 2px solid var(--extra-light-gold); box-shadow: var(--shadow-sm);">
+                                            <div style="text-align: center;">
+                                                <p style="margin: 0; font-size: 1rem; color: var(--text-primary);">
+                                                    <span style="font-weight: 700; color: var(--primary-gold);">Founder & Owner:</span> Amit Gautam
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- UPDATED: Minimal Two diversified verticals -->
+                            <div class="animate-fadeInUp" style="max-width: 1000px; margin: 4rem auto; display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; animation-delay: 0.7s;">
+                                <div class="minimal-card" style="position: relative; overflow: hidden;">
+                                    <div style="display: flex; align-items: center; margin-bottom: 1.5rem;">
+                                        <div style="width: 50px; height: 50px; background: var(--matte-blue); border-radius: 10px; display: flex; align-items: center; justify-content: center; margin-right: 15px;">
+                                            <i class="fas fa-ship" style="color: var(--primary-blue); font-size: 1.2rem;"></i>
+                                        </div>
+                                        <div>
+                                            <h3 class="text-blue" style="font-size: 1.2rem; margin: 0; font-weight: 500;">Vertical I</h3>
+                                            <p style="margin: 0; font-size: 0.9rem; color: var(--text-muted);">Maritime Excellence</p>
+                                        </div>
+                                    </div>
+                                    <h4 style="margin-bottom: 1rem; font-size: 1.1rem; color: var(--text-primary); font-weight: 500;">Port Operations, Freight Forwarding & Warehousing</h4>
+                                    <div style="display: flex; flex-wrap: wrap; gap: 6px;">
+                                        <span style="background: var(--matte-blue); color: var(--primary-blue); padding: 0.3rem 0.8rem; border-radius: 12px; font-size: 0.8rem;">Port Operations</span>
+                                        <span style="background: var(--matte-blue); color: var(--primary-blue); padding: 0.3rem 0.8rem; border-radius: 12px; font-size: 0.8rem;">Freight Forwarding</span>
+                                        <span style="background: var(--matte-blue); color: var(--primary-blue); padding: 0.3rem 0.8rem; border-radius: 12px; font-size: 0.8rem;">Strategic Partnership</span>
+                                    </div>
+                                </div>
+                                <div class="minimal-card" style="position: relative; overflow: hidden;">
+                                    <div style="display: flex; align-items: center; margin-bottom: 1.5rem;">
+                                        <div style="width: 50px; height: 50px; background: var(--matte-red); border-radius: 10px; display: flex; align-items: center; justify-content: center; margin-right: 15px;">
+                                            <i class="fas fa-atom" style="color: var(--primary-red); font-size: 1.2rem;"></i>
+                                        </div>
+                                        <div>
+                                            <h3 class="text-red" style="font-size: 1.2rem; margin: 0; font-weight: 500;">Vertical II</h3>
+                                            <p style="margin: 0; font-size: 0.9rem; color: var(--text-muted);">Future Materials</p>
+                                        </div>
+                                    </div>
+                                    <h4 style="margin-bottom: 1rem; font-size: 1.1rem; color: var(--text-primary); font-weight: 500;">Critical Minerals & Rare Earth Elements</h4>
+                                    <p style="line-height: 1.6; margin-bottom: 1rem; font-size: 0.9rem; color: var(--text-secondary);">Specifically Rare Earth Permanent Magnets (REPM) with focus on strategic partnerships for EV sector, Defence and other segments</p>
+                                    <div style="display: flex; flex-wrap: wrap; gap: 6px;">
+                                        <span style="background: var(--matte-red); color: var(--primary-red); padding: 0.3rem 0.8rem; border-radius: 12px; font-size: 0.8rem;">EV Sector</span>
+                                        <span style="background: var(--matte-red); color: var(--primary-red); padding: 0.3rem 0.8rem; border-radius: 12px; font-size: 0.8rem;">Defence</span>
+                                        <span style="background: var(--matte-red); color: var(--primary-red); padding: 0.3rem 0.8rem; border-radius: 12px; font-size: 0.8rem;">REPM</span>
+                                    </div>
+                                </div>
+                            </div>
+                                <!-- Enhanced Partnership Statement -->
+                                <div class="animate-scaleIn" style="text-align: center; margin-top: 3rem; background: white; padding: 3rem; border-radius: 20px; border: 3px solid var(--extra-light-blue); box-shadow: var(--shadow-lg); position: relative; overflow: hidden;">
+                                    <div style="position: absolute; top: 0; left: 0; right: 0; height: 6px; background: var(--gradient-blue-gold);"></div>
+                                    <div style="max-width: 800px; margin: 0 auto;">
+                                        <h4 style="color: var(--primary-blue); font-size: 1.5rem; margin-bottom: 1.5rem; font-weight: 600;">Synergistic Excellence</h4>
+                                        <p style="font-size: 1.2rem; line-height: 1.7; color: var(--text-primary); margin: 0; font-weight: 500;">
+                                            Both companies complement each other in its purpose to guide and empower clients toward their <strong style="color: var(--primary-blue);">"Growth CURVE,"</strong> leveraging <strong style="color: var(--primary-gold);">3 E's - Experience, Expertise and Execution</strong> to deliver transformative results in logistics, cost optimization, minerals, and rare earth magnet value chain
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- UPDATED: Minimal Industry Leadership description -->
+                            <div class="animate-fadeInUp" style="max-width: 1000px; margin: 4rem auto; background: white; padding: 2.5rem; border-radius: 12px; border: 1px solid var(--border-light); animation-delay: 0.6s;">
+                                <div style="text-align: center; margin-bottom: 2rem;">
+                                    <h3 style="color: var(--text-primary); font-size: 1.8rem; margin-bottom: 1rem; font-weight: 600;">
+                                        Leadership Excellence
+                                    </h3>
+                                </div>
+                                <div style="display: grid; grid-template-columns: 250px 1fr; gap: 3rem; align-items: start;">
+                                    <div style="text-align: center;">
+                                        <div style="width: 200px; height: 200px; border-radius: 50%; overflow: hidden; margin: 0 auto 1rem; border: 4px solid var(--primary-blue); box-shadow: 0 8px 16px rgba(0,0,0,0.1);">
+                                            <img src="amit.jpg" alt="Amit Gautam - Founder & Leadership" style="width: 100%; height: 100%; object-fit: cover;">
+                                        </div>
+                                        <h4 style="color: var(--primary-blue); margin-bottom: 0.5rem; font-size: 1.2rem;">Amit Gautam</h4>
+                                        <p style="color: var(--text-secondary); font-size: 0.9rem; margin: 0;">Founder & Leadership</p>
+                                    </div>
+                                    
+                                    <div>
+                                        <div style="margin-bottom: 1.5rem;">
+                                            <p style="font-size: 1rem; line-height: 1.7; margin-bottom: 1rem; color: var(--text-secondary);">
+                                                <strong style="color: var(--primary-blue);">1.</strong> Led by Amit's extensive experience gained with industry giants like <strong>Adani Group</strong>, <strong>Aditya Birla Group</strong>, and <strong>Essar Oil</strong>.
+                                            </p>
+                                            <p style="font-size: 1rem; line-height: 1.7; margin-bottom: 1rem; color: var(--text-secondary);">
+                                                <strong style="color: var(--primary-blue);">2.</strong> Our expertise fosters business growth and expansion, provides strategic consultancy and expertly navigating complex regulatory landscapes in the domain of Port operations and Critical Minerals.
+                                            </p>
+                                            <p style="font-size: 1rem; line-height: 1.7; margin: 0; color: var(--text-secondary);">
+                                                <strong style="color: var(--primary-blue);">3.</strong> Expertise in creating new business streams, securing government contracts, and tapping downstream potential in the critical minerals value chain.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- UPDATED: Premium Leadership Excellence Section -->
+                    <!-- UPDATED: Minimal About Section -->
+                    <section id="about" style="padding: 6rem 2rem; background: var(--background-light);">
+                        <div style="max-width: 1000px; margin: 0 auto;">
+                            <div class="animate-fadeInUp" style="text-align: center; margin-bottom: 4rem;">
+                                <h2 style="font-size: 2.5rem; margin-bottom: 1rem; color: var(--text-primary); font-weight: 400;">About KARV Group</h2>
+                                <p style="font-size: 1.1rem; color: var(--text-secondary); max-width: 700px; margin: 0 auto; line-height: 1.6;">Pioneering consulting excellence across maritime logistics and critical minerals sectors</p>
+                            </div>
+
+                            <!-- Vision & Mission -->
+                            <div class="animate-fadeInUp" style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; margin-bottom: 4rem;">
+                                <div class="minimal-card">
+                                    <div style="display: flex; align-items: center; margin-bottom: 1.5rem;">
+                                        <div style="width: 50px; height: 50px; background: var(--matte-blue); border-radius: 10px; display: flex; align-items: center; justify-content: center; margin-right: 15px;">
+                                            <i class="fas fa-eye" style="color: var(--primary-blue); font-size: 1.2rem;"></i>
+                                        </div>
+                                        <h3 style="color: var(--text-primary); margin: 0; font-size: 1.2rem; font-weight: 500;">Our Vision</h3>
+                                    </div>
+                                    <p style="font-size: 0.95rem; line-height: 1.6; color: var(--text-secondary); margin: 0;">
+                                        To redefine the logistics landscape with innovative, tailored and sustainable solutions that drive transformational growth for our clients and partners.
+                                    </p>
+                                </div>
+                                <div class="minimal-card">
+                                    <div style="display: flex; align-items: center; margin-bottom: 1.5rem;">
+                                        <div style="width: 50px; height: 50px; background: var(--matte-orange); border-radius: 10px; display: flex; align-items: center; justify-content: center; margin-right: 15px;">
+                                            <i class="fas fa-target" style="color: var(--primary-orange); font-size: 1.2rem;"></i>
+                                        </div>
+                                        <h3 style="color: var(--text-primary); margin: 0; font-size: 1.2rem; font-weight: 500;">Our Mission</h3>
+                                    </div>
+                                    <p style="font-size: 0.95rem; line-height: 1.6; color: var(--text-secondary); margin: 0;">
+                                        To deliver strategic value, streamline operations, and optimize profitability for our clients through expertise, innovation, and unwavering commitment to excellence.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <!-- Leadership Section -->
+                            <div class="animate-fadeInUp" style="background: white; padding: 3rem; border-radius: 16px; border: 1px solid var(--border-light); margin-bottom: 3rem;">
+                                <h3 style="text-align: center; font-size: 1.8rem; margin-bottom: 2rem; color: var(--text-primary); font-weight: 500;">Leadership Excellence</h3>
+                                
+                                <div style="display: grid; grid-template-columns: 250px 1fr; gap: 3rem; align-items: start;">
+                                    <div style="text-align: center;">
+                                        <div style="width: 150px; height: 150px; border-radius: 50%; overflow: hidden; margin: 0 auto 1rem; border: 4px solid var(--primary-blue); box-shadow: 0 8px 16px rgba(0,0,0,0.1);">
+                                            <img src="amit.jpg" alt="Amit Gautam - Founder & Owner" style="width: 100%; height: 100%; object-fit: cover;">
+                                        </div>
+                                        <h4 style="margin: 0 0 0.5rem; color: var(--text-primary); font-size: 1.3rem; font-weight: 500;">Amit Gautam</h4>
+                                        <p style="color: var(--primary-blue); font-size: 0.9rem; margin-bottom: 1rem; font-weight: 500;">Founder & Owner</p>
+                                        <div style="background: var(--matte-blue); padding: 0.8rem; border-radius: 8px;">
+                                            <p style="margin: 0; color: var(--primary-blue); font-size: 0.85rem;">
+                                                <i class="fas fa-envelope" style="margin-right: 5px;"></i>
+                                                amitgautam@karv-group.com
+                                            </p>
+                                        </div>
+                                    </div>
+                                    
+                                    <div>
+                                        <div style="background: var(--background-light); padding: 2rem; border-radius: 12px; border-left: 4px solid var(--primary-orange); margin-bottom: 2rem;">
+                                            <blockquote style="font-style: italic; font-size: 1.1rem; color: var(--text-primary); margin-bottom: 1rem; line-height: 1.6;">
+                                                "Driving growth and creating sustainable solutions in logistics and supply chain is my passion."
+                                            </blockquote>
+                                            <p style="margin: 0; color: var(--primary-orange); font-weight: 500; font-size: 0.9rem;">— Amit Gautam, Founder</p>
+                                        </div>
+                                        
+                                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-bottom: 2rem;">
+                                            <div style="background: var(--matte-orange); padding: 1.5rem; border-radius: 10px;">
+                                                <h5 style="color: var(--primary-orange); margin-bottom: 0.5rem; font-size: 1rem; font-weight: 500;">Network</h5>
+                                                <p style="margin: 0; line-height: 1.5; color: var(--text-muted); font-size: 0.85rem;">
+                                                    Robust network and proven track record in securing high-value contracts across Indian and global markets
+                                                </p>
+                                            </div>
+                                        </div>
+                                        
+                                        <div style="background: var(--text-primary); color: white; padding: 2rem; border-radius: 12px;">
+                                            <h5 style="margin: 0 0 1rem; color: var(--primary-yellow); font-size: 1.2rem; font-weight: 500;">27 Years of Industry Excellence</h5>
+                                            <p style="margin: 0; line-height: 1.6; font-size: 0.95rem;">
+                                                Amit has handled more than <strong>1000 stakeholders</strong> in the domain of Port, Logistics, Project Cargo Logistics, SEZ, Fertilizer, and Mining industry.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Enhanced Core Values Section -->
+                            <div class="animate-fadeInUp" style="margin: 4rem auto; max-width: 1200px; animation-delay: 1.4s;">
+                                <div style="text-align: center; margin-bottom: 4rem;">
+                                    <h3 style="font-size: 3rem; color: var(--primary-blue); margin-bottom: 1rem; font-weight: 700;">CORE VALUES</h3>
+                                    <p style="font-size: 1.3rem; color: var(--text-secondary); max-width: 600px; margin: 0 auto; line-height: 1.6;">Our foundation for excellence and growth</p>
+                                </div>
+                                
+                                <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 2.5rem; margin-bottom: 3rem;">
+                                    <!-- Growth Card -->
+                                    <div class="card-primary animate-slideInLeft" style="background: var(--gradient-light); border: 3px solid var(--extra-light-blue); text-align: center; position: relative; overflow: hidden;">
+                                        <div style="position: absolute; top: 0; left: 0; right: 0; height: 6px; background: var(--gradient-primary);"></div>
+                                        <div style="background: var(--gradient-primary); width: 100px; height: 100px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 2rem; box-shadow: var(--shadow-lg);">
+                                            <span style="color: white; font-size: 3rem; font-weight: 900;">G</span>
+                                        </div>
+                                        <h4 style="font-size: 2rem; color: var(--primary-blue); margin-bottom: 1rem; font-weight: 700;">GROWTH</h4>
+                                        <p style="font-size: 1.1rem; line-height: 1.7; color: var(--text-secondary); margin: 0;">
+                                            Continuous improvement and expansion in all our endeavors, fostering innovation and embracing new opportunities
+                                        </p>
+                                    </div>
+
+                                    <!-- Resilience Card -->
+                                    <div class="card-primary animate-slideInRight" style="background: var(--ultra-light-gold); border: 3px solid var(--extra-light-gold); text-align: center; position: relative; overflow: hidden;">
+                                        <div style="position: absolute; top: 0; left: 0; right: 0; height: 6px; background: var(--gradient-gold);"></div>
+                                        <div style="background: var(--gradient-gold); width: 100px; height: 100px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 2rem; box-shadow: var(--shadow-lg);">
+                                            <span style="color: white; font-size: 3rem; font-weight: 900;">R</span>
+                                        </div>
+                                        <h4 style="font-size: 2rem; color: var(--primary-gold); margin-bottom: 1rem; font-weight: 700;">RESILIENCE</h4>
+                                        <p style="font-size: 1.1rem; line-height: 1.7; color: var(--text-secondary); margin: 0;">
+                                            Strength to overcome challenges and adapt to changing markets with unwavering determination
+                                        </p>
+                                    </div>
+
+                                    <!-- Integrity Card -->
+                                    <div class="card-primary animate-slideInLeft" style="background: var(--gradient-light); border: 3px solid var(--extra-light-blue); text-align: center; position: relative; overflow: hidden; animation-delay: 0.2s;">
+                                        <div style="position: absolute; top: 0; left: 0; right: 0; height: 6px; background: var(--gradient-primary);"></div>
+                                        <div style="background: var(--gradient-primary); width: 100px; height: 100px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 2rem; box-shadow: var(--shadow-lg);">
+                                            <span style="color: white; font-size: 3rem; font-weight: 900;">I</span>
+                                        </div>
+                                        <h4 style="font-size: 2rem; color: var(--primary-blue); margin-bottom: 1rem; font-weight: 700;">INTEGRITY</h4>
+                                        <p style="font-size: 1.1rem; line-height: 1.7; color: var(--text-secondary); margin: 0;">
+                                            Ethical practices and transparency in all our business dealings, building trust through honesty
+                                        </p>
+                                    </div>
+
+                                    <!-- Partnership Card -->
+                                    <div class="card-primary animate-slideInRight" style="background: var(--ultra-light-gold); border: 3px solid var(--extra-light-gold); text-align: center; position: relative; overflow: hidden; animation-delay: 0.2s;">
+                                        <div style="position: absolute; top: 0; left: 0; right: 0; height: 6px; background: var(--gradient-gold);"></div>
+                                        <div style="background: var(--gradient-gold); width: 100px; height: 100px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 2rem; box-shadow: var(--shadow-lg);">
+                                            <span style="color: white; font-size: 3rem; font-weight: 900;">P</span>
+                                        </div>
+                                        <h4 style="font-size: 2rem; color: var(--primary-gold); margin-bottom: 1rem; font-weight: 700;">PARTNERSHIP</h4>
+                                        <p style="font-size: 1.1rem; line-height: 1.7; color: var(--text-secondary); margin: 0;">
+                                            Collaborative relationships that create mutual value and long-term success for all stakeholders
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <!-- Enhanced GRIP Statement -->
+                                <div class="animate-scaleIn" style="background: white; padding: 3rem; border-radius: 20px; border: 3px solid var(--extra-light-blue); box-shadow: var(--shadow-lg); text-align: center; position: relative; overflow: hidden;">
+                                    <div style="position: absolute; top: 0; left: 0; right: 0; height: 6px; background: var(--gradient-blue-gold);"></div>
+                                    <h4 style="font-size: 2.5rem; color: var(--primary-blue); margin-bottom: 1.5rem; font-weight: 700;">THE GRIP FRAMEWORK</h4>
+                                    <p style="font-size: 1.3rem; line-height: 1.8; color: var(--text-primary); max-width: 900px; margin: 0 auto; font-weight: 500;">
+                                        Our values create a strong <strong style="color: var(--primary-blue);">GRIP</strong> on success, ensuring we maintain our hold on excellence while reaching for new heights in the maritime and minerals industry
+                                    </p>
+                                </div>
+                            </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Enhanced Services Section with Unified Theme -->
+                    <section id="services" class="section-premium" style="padding: 6rem 2rem; background: linear-gradient(135deg, #F8FAFF 0%, #EDF4FF 100%); position: relative; overflow: hidden;">
+                        <!-- Background Elements -->
+                        <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; opacity: 0.03;">
+                            <div style="position: absolute; top: 20%; left: 10%; width: 200px; height: 200px; border-radius: 50%; background: var(--gradient-primary);"></div>
+                            <div style="position: absolute; bottom: 20%; right: 10%; width: 150px; height: 150px; border-radius: 50%; background: var(--gradient-gold);"></div>
+                        </div>
+                        
+                        <div style="max-width: 1400px; margin: 0 auto; position: relative; z-index: 2;">
+                            <div class="animate-fadeInUp" style="text-align: center; margin-bottom: 5rem;">
+                                <div style="display: inline-block; background: var(--gradient-primary); padding: 1rem 2.5rem; border-radius: 50px; margin-bottom: 1.5rem; box-shadow: var(--shadow-lg);">
+                                    <span style="color: white; font-weight: 600; font-size: 1.1rem;">
+                                        <i class="fas fa-cogs" style="margin-right: 10px;"></i>
+                                        Our Premium Services
+                                    </span>
+                                </div>
+                                <h2 style="font-size: 3.5rem; margin-bottom: 1.5rem; color: var(--primary-blue); font-weight: 700;">Comprehensive Solutions</h2>
+                                <p style="font-size: 1.3rem; color: var(--text-secondary); margin-bottom: 2rem; max-width: 800px; margin-left: auto; margin-right: auto; line-height: 1.7;">
+                                    Industry-leading expertise in maritime logistics, critical minerals, and strategic consulting
+                                </p>
+                            </div>
+                            
+                            <!-- Enhanced Core Services Grid -->
+                            <div class="animate-fadeInUp" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(420px, 1fr)); gap: 3rem; margin-bottom: 5rem;">
+                                
+                                <!-- Port Consulting Service -->
+                                <div class="card-primary animate-slideInLeft" style="background: white; position: relative; overflow: hidden; transition: all 0.4s ease;">
+                                    <div style="position: absolute; top: 0; left: 0; right: 0; height: 6px; background: var(--gradient-primary);"></div>
+                                    <div style="padding: 3rem;">
+                                        <div style="display: flex; align-items: center; margin-bottom: 2rem;">
+                                            <div style="width: 80px; height: 80px; background: var(--gradient-primary); border-radius: 20px; display: flex; align-items: center; justify-content: center; margin-right: 20px; box-shadow: var(--shadow-lg);">
+                                                <i class="fas fa-anchor" style="color: white; font-size: 2rem;"></i>
+                                            </div>
+                                            <h3 style="color: var(--primary-blue); margin: 0; font-size: 1.8rem; font-weight: 700;">Port Consulting</h3>
+                                        </div>
+                                        <img src="https://images.unsplash.com/photo-1566576721346-d4a3b4eaeb55?w=400&h=200&fit=crop&crop=entropy" alt="Port Consulting" style="width: 100%; height: 180px; object-fit: cover; border-radius: 12px; margin-bottom: 1.5rem;">
+                                        <p style="line-height: 1.7; color: var(--text-secondary); margin-bottom: 2rem; font-size: 1.1rem;">
+                                            Comprehensive port consulting services including logistics feasibility studies, operational optimization, and strategic planning of EXIM logistics services.
+                                        </p>
+                                        <div style="display: grid; gap: 1rem;">
+                                            <div style="display: flex; align-items: center; padding: 1rem; background: var(--ultra-light-blue); border-radius: 12px; border: 2px solid var(--extra-light-blue);">
+                                                <i class="fas fa-chart-bar" style="color: var(--primary-blue); margin-right: 12px; font-size: 1.1rem;"></i>
+                                                <span style="color: var(--text-primary); font-weight: 500;">Feasibility studies and market analysis</span>
+                                            </div>
+                                            <div style="display: flex; align-items: center; padding: 1rem; background: var(--ultra-light-blue); border-radius: 12px; border: 2px solid var(--extra-light-blue);">
+                                                <i class="fas fa-tachometer-alt" style="color: var(--primary-blue); margin-right: 12px; font-size: 1.1rem;"></i>
+                                                <span style="color: var(--text-primary); font-weight: 500;">Operational optimization and efficiency</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Logistics Consulting Service -->
+                                <div class="card-primary animate-slideInRight" style="background: white; position: relative; overflow: hidden; transition: all 0.4s ease;">
+                                    <div style="position: absolute; top: 0; left: 0; right: 0; height: 6px; background: var(--gradient-gold);"></div>
+                                    <div style="padding: 3rem;">
+                                        <div style="display: flex; align-items: center; margin-bottom: 2rem;">
+                                            <div style="width: 80px; height: 80px; background: var(--gradient-gold); border-radius: 20px; display: flex; align-items: center; justify-content: center; margin-right: 20px; box-shadow: var(--shadow-lg);">
+                                                <i class="fas fa-truck" style="color: white; font-size: 2rem;"></i>
+                                            </div>
+                                            <h3 style="color: var(--primary-gold); margin: 0; font-size: 1.8rem; font-weight: 700;">Logistics Consulting</h3>
+                                        </div>
+                                        <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=400&h=200&fit=crop&crop=entropy" alt="Logistics Consulting" style="width: 100%; height: 180px; object-fit: cover; border-radius: 12px; margin-bottom: 1.5rem;">
+                                        <p style="line-height: 1.7; color: var(--text-secondary); margin-bottom: 2rem; font-size: 1.1rem;">
+                                            End-to-end logistics consulting services focused on supply chain optimization, warehousing solutions, and operational excellence.
+                                        </p>
+                                        <div style="display: grid; gap: 1rem;">
+                                            <div style="display: flex; align-items: center; padding: 1rem; background: var(--ultra-light-gold); border-radius: 12px; border: 2px solid var(--extra-light-gold);">
+                                                <i class="fas fa-route" style="color: var(--primary-gold); margin-right: 12px; font-size: 1.1rem;"></i>
+                                                <span style="color: var(--text-primary); font-weight: 500;">Supply chain analysis and redesign</span>
+                                            </div>
+                                            <div style="display: flex; align-items: center; padding: 1rem; background: var(--ultra-light-gold); border-radius: 12px; border: 2px solid var(--extra-light-gold);">
+                                                <i class="fas fa-warehouse" style="color: var(--primary-gold); margin-right: 12px; font-size: 1.1rem;"></i>
+                                                <span style="color: var(--text-primary); font-weight: 500;">Warehousing and distribution strategy</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Business Development Service -->
+                                <div class="card-primary animate-slideInLeft" style="background: white; position: relative; overflow: hidden; transition: all 0.4s ease; animation-delay: 0.2s;">
+                                    <div style="position: absolute; top: 0; left: 0; right: 0; height: 6px; background: var(--gradient-primary);"></div>
+                                    <div style="padding: 3rem;">
+                                        <div style="display: flex; align-items: center; margin-bottom: 2rem;">
+                                            <div style="width: 80px; height: 80px; background: var(--gradient-primary); border-radius: 20px; display: flex; align-items: center; justify-content: center; margin-right: 20px; box-shadow: var(--shadow-lg);">
+                                                <i class="fas fa-rocket" style="color: white; font-size: 2rem;"></i>
+                                            </div>
+                                            <h3 style="color: var(--primary-blue); margin: 0; font-size: 1.8rem; font-weight: 700;">Business Development</h3>
+                                        </div>
+                                        <img src="https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=400&h=200&fit=crop&crop=entropy" alt="Business Development" style="width: 100%; height: 180px; object-fit: cover; border-radius: 12px; margin-bottom: 1.5rem;">
+                                        <p style="line-height: 1.7; color: var(--text-secondary); margin-bottom: 2rem; font-size: 1.1rem;">
+                                            Strategic business development services including venture building, feasibility studies, and partnership facilitation.
+                                        </p>
+                                        <div style="display: grid; gap: 1rem;">
+                                            <div style="display: flex; align-items: center; padding: 1rem; background: var(--ultra-light-blue); border-radius: 12px; border: 2px solid var(--extra-light-blue);">
+                                                <i class="fas fa-seedling" style="color: var(--primary-blue); margin-right: 12px; font-size: 1.1rem;"></i>
+                                                <span style="color: var(--text-primary); font-weight: 500;">Building ventures from ground up</span>
+                                            </div>
+                                            <div style="display: flex; align-items: center; padding: 1rem; background: var(--ultra-light-blue); border-radius: 12px; border: 2px solid var(--extra-light-blue);">
+                                                <i class="fas fa-trophy" style="color: var(--primary-blue); margin-right: 12px; font-size: 1.1rem;"></i>
+                                                <span style="color: var(--text-primary); font-weight: 500;">Government bid consulting</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Critical Minerals Service -->
+                                <div class="card-primary animate-slideInRight" style="background: white; position: relative; overflow: hidden; transition: all 0.4s ease; animation-delay: 0.2s;">
+                                    <div style="position: absolute; top: 0; left: 0; right: 0; height: 6px; background: var(--gradient-gold);"></div>
+                                    <div style="padding: 3rem;">
+                                        <div style="display: flex; align-items: center; margin-bottom: 2rem;">
+                                            <div style="width: 80px; height: 80px; background: var(--gradient-gold); border-radius: 20px; display: flex; align-items: center; justify-content: center; margin-right: 20px; box-shadow: var(--shadow-lg);">
+                                                <i class="fas fa-atom" style="color: white; font-size: 2rem;"></i>
+                                            </div>
+                                            <h3 style="color: var(--primary-gold); margin: 0; font-size: 1.8rem; font-weight: 700;">Critical Minerals & REPM</h3>
+                                        </div>
+                                        <img src="https://etimg.etb2bimg.com/thumb/msid-112405257,width-1200,height-900,resizemode-4/.jpg" alt="Critical Minerals" style="width: 100%; height: 180px; object-fit: cover; border-radius: 12px; margin-bottom: 1.5rem;">
+                                        <p style="line-height: 1.7; color: var(--text-secondary); margin-bottom: 2rem; font-size: 1.1rem;">
+                                            Specialized consulting in critical minerals and rare earth value chain for EV sector, defense, and industrial applications.
+                                        </p>
+                                        <div style="display: grid; gap: 1rem;">
+                                            <div style="display: flex; align-items: center; padding: 1rem; background: var(--ultra-light-gold); border-radius: 12px; border: 2px solid var(--extra-light-gold);">
+                                                <i class="fas fa-industry" style="color: var(--primary-gold); margin-right: 12px; font-size: 1.1rem;"></i>
+                                                <span style="color: var(--text-primary); font-weight: 500;">REPM plant setup consulting</span>
+                                            </div>
+                                            <div style="display: flex; align-items: center; padding: 1rem; background: var(--ultra-light-gold); border-radius: 12px; border: 2px solid var(--extra-light-gold);">
+                                                <i class="fas fa-car" style="color: var(--primary-gold); margin-right: 12px; font-size: 1.1rem;"></i>
+                                                <span style="color: var(--text-primary); font-weight: 500;">EV sector strategic partnerships</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Enhanced Call to Action -->
+                            <div class="animate-scaleIn" style="text-align: center; background: white; padding: 4rem; border-radius: 20px; border: 3px solid var(--extra-light-blue); box-shadow: var(--shadow-lg); position: relative; overflow: hidden;">
+                                <div style="position: absolute; top: 0; left: 0; right: 0; height: 6px; background: var(--gradient-blue-gold);"></div>
+                                <h3 style="font-size: 2.5rem; color: var(--primary-blue); margin-bottom: 1.5rem; font-weight: 700;">Ready to Transform Your Business?</h3>
+                                <p style="font-size: 1.3rem; color: var(--text-secondary); margin-bottom: 2.5rem; max-width: 700px; margin-left: auto; margin-right: auto; line-height: 1.7;">
+                                    Partner with KARV Group for comprehensive solutions that drive growth and operational excellence
+                                </p>
+                                <a href="#contact" class="btn-primary" style="display: inline-block; background: var(--gradient-primary); color: white; padding: 1.2rem 3rem; border-radius: 50px; text-decoration: none; font-weight: 600; font-size: 1.1rem; transition: all 0.3s ease; box-shadow: var(--shadow-lg);">
+                                    <i class="fas fa-phone" style="margin-right: 10px;"></i>
+                                    Get Started Today
+                                </a>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Contact Section -->
+                    <section id="contact" style="padding: 6rem 2rem; background: var(--gradient-light);">
+                        <div style="max-width: 1200px; margin: 0 auto;">
+                            <div class="animate-fadeInUp" style="text-align: center; margin-bottom: 4rem;">
+                                <h2 style="font-size: 3rem; color: var(--primary-blue); margin-bottom: 1rem; font-weight: 700;">Get In Touch</h2>
+                                <p style="font-size: 1.3rem; color: var(--text-secondary); max-width: 600px; margin: 0 auto; line-height: 1.6;">
+                                    Ready to transform your business? Contact us today to discuss your project requirements.
+                                </p>
+                            </div>
+                            
+                            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 3rem;">
+                                <!-- Contact Cards -->
+                                <div class="card-primary">
+                                    <div style="text-align: center;">
+                                        <div style="width: 80px; height: 80px; background: var(--gradient-primary); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem; box-shadow: var(--shadow-lg);">
+                                            <i class="fas fa-envelope" style="color: white; font-size: 1.8rem;"></i>
+                                        </div>
+                                        <h3 style="color: var(--primary-blue); margin-bottom: 1rem; font-size: 1.5rem;">Email Us</h3>
+                                        <p style="color: var(--text-secondary); margin-bottom: 1rem;">Send us a message anytime</p>
+                                        <a href="mailto:info@karv-group.com" style="color: var(--primary-blue); font-weight: 600; text-decoration: none;">
+                                            info@karv-group.com
+                                        </a>
+                                    </div>
+                                </div>
+                                
+                                <div class="card-primary">
+                                    <div style="text-align: center;">
+                                        <div style="width: 80px; height: 80px; background: var(--gradient-gold); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem; box-shadow: var(--shadow-lg);">
+                                            <i class="fas fa-phone" style="color: white; font-size: 1.8rem;"></i>
+                                        </div>
+                                        <h3 style="color: var(--primary-gold); margin-bottom: 1rem; font-size: 1.5rem;">Call Us</h3>
+                                        <p style="color: var(--text-secondary); margin-bottom: 1rem;">Speak with our experts</p>
+                                        <a href="tel:+91-9999999999" style="color: var(--primary-gold); font-weight: 600; text-decoration: none;">
+                                            +91-99999-99999
+                                        </a>
+                                    </div>
+                                </div>
+                                
+                                <div class="card-primary">
+                                    <div style="text-align: center;">
+                                        <div style="width: 80px; height: 80px; background: var(--gradient-primary); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem; box-shadow: var(--shadow-lg);">
+                                            <i class="fas fa-map-marker-alt" style="color: white; font-size: 1.8rem;"></i>
+                                        </div>
+                                        <h3 style="color: var(--primary-blue); margin-bottom: 1rem; font-size: 1.5rem;">Visit Us</h3>
+                                        <p style="color: var(--text-secondary); margin-bottom: 1rem;">Our office location</p>
+                                        <p style="color: var(--text-primary); font-weight: 500; line-height: 1.5;">
+                                            KARV Group<br>
+                                            Business District<br>
+                                            India
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                                <div class="premium-card" style="background: white; position: relative; overflow: hidden; transition: all 0.4s ease; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+                                    <div style="position: absolute; top: 0; left: 0; right: 0; height: 6px; background: var(--gradient-accent);"></div>
+                                    <div style="padding: 2rem;">
+                                        <div style="display: flex; align-items: center; margin-bottom: 1.5rem;">
+                                            <div style="width: 60px; height: 60px; background: var(--light-blue); border-radius: 16px; display: flex; align-items: center; justify-content: center; margin-right: 15px;">
+                                                <i class="fas fa-anchor" style="color: var(--primary-blue); font-size: 1.5rem;"></i>
+                                            </div>
+                                            <h3 style="color: var(--primary-blue); margin: 0; font-size: 1.5rem;">Port Consulting</h3>
+                                        </div>
+                                        <p style="line-height: 1.6; color: var(--primary-black); margin-bottom: 1.5rem; font-size: 1rem;">
+                                            Comprehensive port consulting services including Logistics feasibility studies, operational optimization, and strategic planning of EXIM Logistics services for port development and operations. Logistics Feasibility studies and market analysis.
+                                        </p>
+                                        <div style="display: grid; gap: 0.8rem;">
+                                            <div style="display: flex; align-items: center; padding: 0.6rem; background: var(--light-blue); border-radius: 8px;">
+                                                <i class="fas fa-chart-bar" style="color: var(--primary-blue); margin-right: 10px; font-size: 1rem;"></i>
+                                                <span style="color: var(--primary-black); font-weight: 500; font-size: 0.9rem;">Feasibility studies and market analysis</span>
+                                            </div>
+                                            <div style="display: flex; align-items: center; padding: 0.6rem; background: var(--light-blue); border-radius: 8px;">
+                                                <i class="fas fa-tachometer-alt" style="color: var(--primary-blue); margin-right: 10px; font-size: 1rem;"></i>
+                                                <span style="color: var(--primary-black); font-weight: 500; font-size: 0.9rem;">Operational optimization and efficiency</span>
+                                            </div>
+                                            <div style="display: flex; align-items: center; padding: 0.6rem; background: var(--light-blue); border-radius: 8px;">
+                                                <i class="fas fa-handshake" style="color: var(--primary-blue); margin-right: 10px; font-size: 1rem;"></i>
+                                                <span style="color: var(--primary-black); font-weight: 500; font-size: 0.9rem;">Long-term strategic agreements</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Premium Logistics Consulting -->
+                                <div class="premium-card" style="background: white; position: relative; overflow: hidden; transition: all 0.4s ease;">
+                                    <div style="position: absolute; top: 0; left: 0; right: 0; height: 6px; background: var(--gradient-primary);"></div>
+                                    <div style="padding: 3rem;">
+                                        <div style="display: flex; align-items: center; margin-bottom: 2rem;">
+                                            <div style="width: 80px; height: 80px; background: var(--light-orange); border-radius: 20px; display: flex; align-items: center; justify-content: center; margin-right: 20px;">
+                                                <i class="fas fa-truck" style="color: var(--primary-orange); font-size: 2rem;"></i>
+                                            </div>
+                                            <h3 style="color: var(--primary-orange); margin: 0; font-size: 1.8rem;">Logistics Consulting</h3>
+                                        </div>
+                                        <p style="line-height: 1.7; color: var(--primary-black); margin-bottom: 2rem; font-size: 1.1rem;">
+                                            End-to-end logistics consulting services focused on supply chain optimization, warehousing solutions, and operational excellence.
+                                        </p>
+                                        <div style="display: grid; gap: 1rem;">
+                                            <div style="display: flex; align-items: center; padding: 0.8rem; background: var(--light-orange); border-radius: 10px;">
+                                                <i class="fas fa-route" style="color: var(--primary-orange); margin-right: 12px; font-size: 1.1rem;"></i>
+                                                <span style="color: var(--primary-black); font-weight: 500;">Supply chain analysis and redesign</span>
+                                            </div>
+                                            <div style="display: flex; align-items: center; padding: 0.8rem; background: var(--light-orange); border-radius: 10px;">
+                                                <i class="fas fa-warehouse" style="color: var(--primary-orange); margin-right: 12px; font-size: 1.1rem;"></i>
+                                                <span style="color: var(--primary-black); font-weight: 500;">Warehousing and distribution strategy</span>
+                                            </div>
+                                            <div style="display: flex; align-items: center; padding: 0.8rem; background: var(--light-orange); border-radius: 10px;">
+                                                <i class="fas fa-dollar-sign" style="color: var(--primary-orange); margin-right: 12px; font-size: 1.1rem;"></i>
+                                                <span style="color: var(--primary-black); font-weight: 500;">Cost reduction and efficiency programs</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Premium Freight Forwarding -->
+                                <div class="premium-card" style="background: white; position: relative; overflow: hidden; transition: all 0.4s ease;">
+                                    <div style="position: absolute; top: 0; left: 0; right: 0; height: 6px; background: linear-gradient(135deg, var(--primary-red), var(--primary-orange));"></div>
+                                    <div style="padding: 3rem;">
+                                        <div style="display: flex; align-items: center; margin-bottom: 2rem;">
+                                            <div style="width: 80px; height: 80px; background: var(--light-red); border-radius: 20px; display: flex; align-items: center; justify-content: center; margin-right: 20px;">
+                                                <i class="fas fa-globe-americas" style="color: var(--primary-red); font-size: 2rem;"></i>
+                                            </div>
+                                            <h3 style="color: var(--primary-red); margin: 0; font-size: 1.8rem;">Freight Forwarding</h3>
+                                        </div>
+                                        <p style="line-height: 1.7; color: var(--primary-black); margin-bottom: 2rem; font-size: 1.1rem;">
+                                            Global freight forwarding services with expertise in multimodal transport, customs clearance, and comprehensive logistics coordination.
+                                        </p>
+                                        <div style="display: grid; gap: 0.8rem;">
+                                            <div style="display: flex; align-items: center; padding: 0.6rem; background: var(--light-red); border-radius: 8px;">
+                                                <i class="fas fa-shipping-fast" style="color: var(--primary-red); margin-right: 10px; font-size: 1rem;"></i>
+                                                <span style="color: var(--primary-black); font-weight: 500; font-size: 0.9rem;">End-to-end global freight management</span>
+                                            </div>
+                                            <div style="display: flex; align-items: center; padding: 0.6rem; background: var(--light-red); border-radius: 8px;">
+                                                <i class="fas fa-file-contract" style="color: var(--primary-red); margin-right: 10px; font-size: 1rem;"></i>
+                                                <span style="color: var(--primary-black); font-weight: 500; font-size: 0.9rem;">Customs clearance facilitation</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Premium Business Development -->
+                                <div class="premium-card" style="background: white; position: relative; overflow: hidden; transition: all 0.4s ease;">
+                                    <div style="position: absolute; top: 0; left: 0; right: 0; height: 6px; background: linear-gradient(135deg, var(--primary-yellow), var(--primary-orange));"></div>
+                                    <div style="padding: 3rem;">
+                                        <div style="display: flex; align-items: center; margin-bottom: 2rem;">
+                                            <div style="width: 80px; height: 80px; background: var(--light-yellow); border-radius: 20px; display: flex; align-items: center; justify-content: center; margin-right: 20px;">
+                                                <i class="fas fa-rocket" style="color: var(--primary-yellow); font-size: 2rem;"></i>
+                                            </div>
+                                            <h3 style="color: var(--primary-black); margin: 0; font-size: 1.8rem;">Business Development</h3>
+                                        </div>
+                                        <p style="line-height: 1.7; color: var(--primary-black); margin-bottom: 2rem; font-size: 1.1rem;">
+                                            Strategic business development services including venture building, feasibility studies, and partnership facilitation for sustainable growth.
+                                        </p>
+                                        <div style="display: grid; gap: 1rem;">
+                                            <div style="display: flex; align-items: center; padding: 0.8rem; background: var(--light-yellow); border-radius: 10px;">
+                                                <i class="fas fa-seedling" style="color: var(--primary-black); margin-right: 12px; font-size: 1.1rem;"></i>
+                                                <span style="color: var(--primary-black); font-weight: 500;">Building ventures from ground up</span>
+                                            </div>
+                                            <div style="display: flex; align-items: center; padding: 0.8rem; background: var(--light-yellow); border-radius: 10px;">
+                                                <i class="fas fa-calculator" style="color: var(--primary-black); margin-right: 12px; font-size: 1.1rem;"></i>
+                                                <span style="color: var(--primary-black); font-weight: 500;">Financial analysis for critical decisions</span>
+                                            </div>
+                                            <div style="display: flex; align-items: center; padding: 0.8rem; background: var(--light-yellow); border-radius: 10px;">
+                                                <i class="fas fa-trophy" style="color: var(--primary-black); margin-right: 12px; font-size: 1.1rem;"></i>
+                                                <span style="color: var(--primary-black); font-weight: 500;">Government bid consulting</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Premium Critical Minerals -->
+                                <div class="premium-card" style="background: white; position: relative; overflow: hidden; transition: all 0.4s ease;">
+                                    <div style="position: absolute; top: 0; left: 0; right: 0; height: 6px; background: linear-gradient(135deg, var(--primary-red), var(--primary-blue));"></div>
+                                    <div style="padding: 3rem;">
+                                        <div style="display: flex; align-items: center; margin-bottom: 2rem;">
+                                            <div style="width: 80px; height: 80px; background: var(--light-red); border-radius: 20px; display: flex; align-items: center; justify-content: center; margin-right: 20px;">
+                                                <i class="fas fa-atom" style="color: var(--primary-red); font-size: 2rem;"></i>
+                                            </div>
+                                            <h3 style="color: var(--primary-red); margin: 0; font-size: 1.8rem;">Critical Minerals & REPM</h3>
+                                        </div>
+                                        <p style="line-height: 1.7; color: var(--primary-black); margin-bottom: 2rem; font-size: 1.1rem;">
+                                            Specialized consulting in critical minerals and rare earth value chain, focusing on strategic partnerships for EV sector, Defence and industrial applications.
+                                        </p>
+                                        <div style="display: grid; gap: 1rem;">
+                                            <div style="display: flex; align-items: center; padding: 0.8rem; background: var(--light-red); border-radius: 10px;">
+                                                <i class="fas fa-industry" style="color: var(--primary-red); margin-right: 12px; font-size: 1.1rem;"></i>
+                                                <span style="color: var(--primary-black); font-weight: 500;">REPM plant setup consulting</span>
+                                            </div>
+                                            <div style="display: flex; align-items: center; padding: 0.8rem; background: var(--light-red); border-radius: 10px;">
+                                                <i class="fas fa-car" style="color: var(--primary-red); margin-right: 12px; font-size: 1.1rem;"></i>
+                                                <span style="color: var(--primary-black); font-weight: 500;">EV sector strategic partnerships</span>
+                                            </div>
+                                            <div style="display: flex; align-items: center; padding: 0.8rem; background: var(--light-red); border-radius: 10px;">
+                                                <i class="fas fa-chart-line" style="color: var(--primary-red); margin-right: 12px; font-size: 1.1rem;"></i>
+                                                <span style="color: var(--primary-black); font-weight: 500;">Global demand-supply analysis</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Premium Strategic Site Selection -->
+                                <div class="premium-card" style="background: white; position: relative; overflow: hidden; transition: all 0.4s ease;">
+                                    <div style="position: absolute; top: 0; left: 0; right: 0; height: 6px; background: var(--gradient-accent);"></div>
+                                    <div style="padding: 3rem;">
+                                        <div style="display: flex; align-items: center; margin-bottom: 2rem;">
+                                            <div style="width: 80px; height: 80px; background: var(--light-blue); border-radius: 20px; display: flex; align-items: center; justify-content: center; margin-right: 20px;">
+                                                <i class="fas fa-map-marker-alt" style="color: var(--primary-blue); font-size: 2rem;"></i>
+                                            </div>
+                                            <h3 style="color: var(--primary-blue); margin: 0; font-size: 1.8rem;">Strategic Site Selection</h3>
+                                        </div>
+                                        <p style="line-height: 1.7; color: var(--primary-black); margin-bottom: 2rem; font-size: 1.1rem;">
+                                            Comprehensive site selection services combining industry requirements with logistics advantages for optimal long-term benefits.
+                                        </p>
+                                        <div style="display: grid; gap: 1rem;">
+                                            <div style="display: flex; align-items: center; padding: 0.8rem; background: var(--light-blue); border-radius: 10px;">
+                                                <i class="fas fa-search" style="color: var(--primary-blue); margin-right: 12px; font-size: 1.1rem;"></i>
+                                                <span style="color: var(--primary-black); font-weight: 500;">Site analysis and selection</span>
+                                            </div>
+                                            <div style="display: flex; align-items: center; padding: 0.8rem; background: var(--light-blue); border-radius: 10px;">
+                                                <i class="fas fa-balance-scale" style="color: var(--primary-blue); margin-right: 12px; font-size: 1.1rem;"></i>
+                                                <span style="color: var(--primary-black); font-weight: 500;">Logistics advantage assessment</span>
+                                            </div>
+                                            <div style="display: flex; align-items: center; padding: 0.8rem; background: var(--light-blue); border-radius: 10px;">
+                                                <i class="fas fa-gavel" style="color: var(--primary-blue); margin-right: 12px; font-size: 1.1rem;"></i>
+                                                <span style="color: var(--primary-black); font-weight: 500;">Regulatory compliance consulting</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Core Strengths -->
+                            <div style="background: #f8fafc; padding: 3rem; border-radius: 16px; margin-bottom: 3rem;">
+                                <h3 style="text-align: center; font-size: 2rem; margin-bottom: 2rem; color: #1e40af;">Our Core Strengths</h3>
+                                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
+                                    <div>
+                                        <h4 style="color: #1e40af; margin-bottom: 0.8rem;">Expertise and Experience</h4>
+                                        <p style="margin: 0; line-height: 1.5; color: #374151;">Deep understanding of industry dynamics, trends, and best practices, combined with years of hands-on experience in solving complex challenges.</p>
+                                    </div>
+                                    <div>
+                                        <h4 style="color: #1e40af; margin-bottom: 0.8rem;">Strategic Insight</h4>
+                                        <p style="margin: 0; line-height: 1.5; color: #374151;">The ability to provide data-driven, forward-thinking strategies tailored to client needs.</p>
+                                    </div>
+                                    <div>
+                                        <h4 style="color: #1e40af; margin-bottom: 0.8rem;">Innovative Problem-Solving</h4>
+                                        <p style="margin: 0; line-height: 1.5; color: #374151;">Employing creativity and innovation to address unique business challenges with effective solutions.</p>
+                                    </div>
+                                    <div>
+                                        <h4 style="color: #1e40af; margin-bottom: 0.8rem;">End-to-End Solutions</h4>
+                                        <p style="margin: 0; line-height: 1.5; color: #374151;">Providing comprehensive support across planning, implementation, and optimization phases.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Industries Served -->
+                            <div style="background: linear-gradient(135deg, #374151, #4b5563); color: white; padding: 3rem; border-radius: 16px;">
+                                <h3 style="text-align: center; font-size: 2rem; margin-bottom: 2rem; color: #fbbf24;">Industries We Serve</h3>
+                                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2rem; text-align: center;">
+                                    <div style="background: rgba(255,255,255,0.1); padding: 1.5rem; border-radius: 8px;">
+                                        <h4 style="color: #fbbf24; margin-bottom: 0.5rem;">FRM & Strategic Minerals</h4>
+                                        <p style="margin: 0; font-size: 0.9rem;">Fertilizer, Raw Materials and Strategic mineral consulting</p>
+                                    </div>
+                                    <div style="background: rgba(255,255,255,0.1); padding: 1.5rem; border-radius: 8px;">
+                                        <h4 style="color: #fbbf24; margin-bottom: 0.5rem;">Rare Earth Elements</h4>
+                                        <p style="margin: 0; font-size: 0.9rem;">Critical minerals and REPM value chain</p>
+                                    </div>
+                                    <div style="background: rgba(255,255,255,0.1); padding: 1.5rem; border-radius: 8px;">
+                                        <h4 style="color: #fbbf24; margin-bottom: 0.5rem;">Manufacturing & Industrial</h4>
+                                        <p style="margin: 0; font-size: 0.9rem;">Industrial logistics and supply chain optimization</p>
+                                    </div>
+                                    <div style="background: rgba(255,255,255,0.1); padding: 1.5rem; border-radius: 8px;">
+                                        <h4 style="color: #fbbf24; margin-bottom: 0.5rem;">Port & Maritime</h4>
+                                        <p style="margin: 0; font-size: 0.9rem;">Port operations and maritime logistics</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- UPDATED: Solutions Section -->
+                    <section id="solutions" style="padding: 4rem 2rem; background: #f8fafc;">
+                        <div style="max-width: 1200px; margin: 0 auto;">
+                            <h2 style="text-align: center; font-size: 2.5rem; margin-bottom: 1rem; color: #1e40af;">Tailored Solutions</h2>
+                            <p style="text-align: center; font-size: 1.1rem; color: #6b7280; margin-bottom: 3rem; max-width: 600px; margin-left: auto; margin-right: auto;">
+                                Client-specific solutions tailored to unique business needs and industry requirements
+                            </p>
+
+                            <!-- Customer Delight Strengths -->
+                            <div style="background: white; padding: 3rem; border-radius: 16px; margin-bottom: 3rem; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+                                <h3 style="text-align: center; font-size: 2rem; margin-bottom: 2rem; color: #1e40af;">Our Commitment to Customer Delight</h3>
+                                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
+                                    <div style="text-align: center;">
+                                        <div style="width: 60px; height: 60px; background: #1e40af; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem; color: white; font-size: 1.5rem;">💡</div>
+                                        <h4 style="color: #1e40af; margin-bottom: 0.8rem;">Empathy and Understanding</h4>
+                                        <p style="margin: 0; line-height: 1.5; color: #374151;">Actively listening to customers to understand their needs and expectations.</p>
+                                    </div>
+                                    <div style="text-align: center;">
+                                        <div style="width: 60px; height: 60px; background: #3b82f6; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem; color: white; font-size: 1.5rem;">📢</div>
+                                        <h4 style="color: #3b82f6; margin-bottom: 0.8rem;">Proactive Communication</h4>
+                                        <p style="margin: 0; line-height: 1.5; color: #374151;">Keeping clients informed and involved at every stage to build trust and transparency.</p>
+                                    </div>
+                                    <div style="text-align: center;">
+                                        <div style="width: 60px; height: 60px; background: #059669; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem; color: white; font-size: 1.5rem;">⭐</div>
+                                        <h4 style="color: #059669; margin-bottom: 0.8rem;">Exceeding Expectations</h4>
+                                        <p style="margin: 0; line-height: 1.5; color: #374151;">Going beyond standard service delivery to surprise and delight clients with added value.</p>
+                                    </div>
+                                    <div style="text-align: center;">
+                                        <div style="width: 60px; height: 60px; background: #d97706; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem; color: white; font-size: 1.5rem;">⏰</div>
+                                        <h4 style="color: #d97706; margin-bottom: 0.8rem;">Timeliness and Reliability</h4>
+                                        <p style="margin: 0; line-height: 1.5; color: #374151;">Ensuring on-time delivery of promises, consistently meeting or exceeding deadlines.</p>
+                                    </div>
+                                    <div style="text-align: center;">
+                                        <div style="width: 60px; height: 60px; background: #be185d; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem; color: white; font-size: 1.5rem;">🎯</div>
+                                        <h4 style="color: #be185d; margin-bottom: 0.8rem;">Personalization</h4>
+                                        <p style="margin: 0; line-height: 1.5; color: #374151;">Offering tailored solutions and customized approach to ensure clients feel valued.</p>
+                                    </div>
+                                    <div style="text-align: center;">
+                                        <div style="width: 60px; height: 60px; background: #0284c7; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem; color: white; font-size: 1.5rem;">🔄</div>
+                                        <h4 style="color: #0284c7; margin-bottom: 0.8rem;">Continuous Improvement</h4>
+                                        <p style="margin: 0; line-height: 1.5; color: #374151;">Regularly seeking feedback and making improvements to enhance client satisfaction.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Solution Highlights -->
+                            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 2rem;">
+                                <div style="background: linear-gradient(135deg, #1e40af, #3b82f6); color: white; padding: 2rem; border-radius: 12px;">
+                                    <h4 style="color: #fbbf24; margin-bottom: 1rem;">Comprehensive Port Solutions</h4>
+                                    <p style="line-height: 1.6; margin: 0;">From feasibility studies to operational optimization, we provide end-to-end port consulting services that enhance efficiency and profitability.</p>
+                                </div>
+                                <div style="background: linear-gradient(135deg, #059669, #10b981); color: white; padding: 2rem; border-radius: 12px;">
+                                    <h4 style="color: #fbbf24; margin-bottom: 1rem;">Strategic Partnerships</h4>
+                                    <p style="line-height: 1.6; margin: 0;">Building long-term partnerships through trust, collaboration, and mutual growth in the critical minerals and logistics sectors.</p>
+                                </div>
+                                <div style="background: linear-gradient(135deg, #d97706, #f59e0b); color: white; padding: 2rem; border-radius: 12px;">
+                                    <h4 style="color: #fbbf24; margin-bottom: 1rem;">Innovation-Driven Approach</h4>
+                                    <p style="line-height: 1.6; margin: 0;">Leveraging innovative problem-solving and cutting-edge strategies to address complex business challenges.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- UPDATED: Insights Section -->
+                    <section id="insights" style="padding: 4rem 2rem; background: white;">
+                        <div style="max-width: 1200px; margin: 0 auto;">
+                            <h2 style="text-align: center; font-size: 2.5rem; margin-bottom: 1rem; color: #1e40af;">Industry Insights</h2>
+                            <p style="text-align: center; font-size: 1.1rem; color: #6b7280; margin-bottom: 3rem; max-width: 600px; margin-left: auto; margin-right: auto;">
+                                Thought leadership and industry trends in ports, logistics, and critical minerals
+                            </p>
+
+                            <!-- Blog/News Articles -->
+                            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 2rem; margin-bottom: 3rem;">
+                                <div style="background: #f8fafc; padding: 2rem; border-radius: 12px; border-left: 4px solid #1e40af;">
+                                    <h4 style="color: #1e40af; margin-bottom: 1rem;">The Future of Port Operations</h4>
+                                    <p style="line-height: 1.6; color: #374151; margin-bottom: 1rem;">
+                                        Exploring emerging trends in port digitalization, automation, and sustainable operations that are reshaping the maritime logistics landscape.
+                                    </p>
+                                    <p style="margin: 0; color: #6b7280; font-size: 0.9rem;">By Amit Gautam | Industry Expert</p>
+                                </div>
+                                
+                                <div style="background: #f8fafc; padding: 2rem; border-radius: 12px; border-left: 4px solid #059669;">
+                                    <h4 style="color: #059669; margin-bottom: 1rem;">Critical Minerals: Global Supply Chain Dynamics</h4>
+                                    <p style="line-height: 1.6; color: #374151; margin-bottom: 1rem;">
+                                        Understanding the strategic importance of rare earth elements and critical minerals in the global transition to clean energy and EV adoption.
+                                    </p>
+                                    <p style="margin: 0; color: #6b7280; font-size: 0.9rem;">By KARV Research Team | Market Analysis</p>
+                                </div>
+
+                                <div style="background: #f8fafc; padding: 2rem; border-radius: 12px; border-left: 4px solid #d97706;">
+                                    <h4 style="color: #d97706; margin-bottom: 1rem;">Freight Forwarding in the Digital Age</h4>
+                                    <p style="line-height: 1.6; color: #374151; margin-bottom: 1rem;">
+                                        How technology and digital transformation are revolutionizing freight forwarding and supply chain management across industries.
+                                    </p>
+                                    <p style="margin: 0; color: #6b7280; font-size: 0.9rem;">By KARV Consultancy | Technology Trends</p>
+                                </div>
+                            </div>
+
+                            <!-- Key Industry Trends -->
+                            <div style="background: linear-gradient(135deg, #374151, #4b5563); color: white; padding: 3rem; border-radius: 16px;">
+                                <h3 style="text-align: center; font-size: 2rem; margin-bottom: 2rem; color: #fbbf24;">Key Industry Trends We Monitor</h3>
+                                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem;">
+                                    <div style="text-align: center;">
+                                        <h4 style="color: #fbbf24; margin-bottom: 0.8rem;">Digital Transformation</h4>
+                                        <p style="margin: 0; line-height: 1.5;">IoT, AI, and blockchain in logistics and port operations</p>
+                                    </div>
+                                    <div style="text-align: center;">
+                                        <h4 style="color: #fbbf24; margin-bottom: 0.8rem;">Sustainability</h4>
+                                        <p style="margin: 0; line-height: 1.5;">Green logistics and sustainable supply chain practices</p>
+                                    </div>
+                                    <div style="text-align: center;">
+                                        <h4 style="color: #fbbf24; margin-bottom: 0.8rem;">Critical Materials</h4>
+                                        <p style="margin: 0; line-height: 1.5;">Strategic minerals for EV, defense, and renewable energy</p>
+                                    </div>
+                                    <div style="text-align: center;">
+                                        <h4 style="color: #fbbf24; margin-bottom: 0.8rem;">Global Trade</h4>
+                                        <p style="margin: 0; line-height: 1.5;">International trade dynamics and regulatory changes</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                            <!-- UPDATED: KARV Symbolic Meaning - Crafting Your Growth Curve -->
+                            <div style="background: linear-gradient(135deg, #2D5AA0, #1E40AF, #3B82F6); color: white; padding: 4rem; border-radius: 20px; margin-top: 3rem; box-shadow: 0 12px 24px rgba(0,0,0,0.15);">
+                                <h3 style="text-align: center; font-size: 2.5rem; margin-bottom: 3rem; color: #F59E0B; text-shadow: 0 2px 4px rgba(0,0,0,0.3);">Crafting Your Growth Curve</h3>
+                                <div style="max-width: 900px; margin: 0 auto;">
+                                    <div style="margin-bottom: 2rem;">
+                                        <p style="font-size: 1.2rem; line-height: 1.8; margin-bottom: 2rem; text-align: justify;">
+                                            The name KARV is inspired by the phonetic and conceptual resonance with the word "Curve," symbolizing the upward trajectory of growth, progress, and transformation.
+                                        </p>
+                                        <p style="font-size: 1.2rem; line-height: 1.8; margin-bottom: 2rem; text-align: justify;">
+                                            The name "KARV" and its association with "Curve" communicate a forward-thinking, client-centric approach which embodies a commitment to steering clients toward their <strong style="color: #F59E0B;">"Growth CURVE"</strong>—a dynamic, sustainable path to shape and accelerate client's success in logistics, minerals, and downstream value through innovative, reliable, and tailored solutions.
+                                        </p>
+                                        <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 2rem; text-align: justify;">
+                                            The <strong style="color: #F59E0B;">"Crafting"</strong> aspect of KARV reflects streamlining processes, eliminating inefficiencies, and sculpting lean operations for cost savings thereby reducing Administrative and Operational Costs.
+                                        </p>
+                                        <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 2rem; text-align: justify;">
+                                            KARV acts as a strategic connector, forging pathways for clients in the mineral sector, driving growth through partnerships, market access and liaisoning for Minerals Business.
+                                        </p>
+                                        <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 2rem; text-align: justify;">
+                                            KARV's experience in niche, high-tech field symbolizes of rare earth value chain positioning clients at the forefront of a critical industry value chain.
+                                        </p>
+                                    </div>
+                                    
+                                    <div style="background: rgba(255,255,255,0.15); padding: 2.5rem; border-radius: 12px; margin-bottom: 2rem; border: 1px solid rgba(255,255,255,0.2);">
+                                        <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem; text-align: justify;">
+                                            The KARV Group positions itself as a trusted, innovative partner that combines strategic consultancy (KARV Consultancy Services) with operational excellence (KARV Enterprises) to deliver holistic growth solutions, ensuring businesses in logistics, minerals, and rare earth value chain achieve sustainable, upward growth.
+                                        </p>
+                                        <p style="font-size: 1.1rem; line-height: 1.8; margin: 0; text-align: justify;">
+                                            KARV (Growth Curve) symbolizes efficiency and adaptability, ensuring smooth, cost-effective movement of goods, especially for complex project cargo, aligning with the upward curve of operational excellence in Logistics Services & Project Cargo Logistics.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- UPDATED: Client Testimonials -->
+                    <section class="framer-1dv25n5" data-framer-name="Testimonials" style="padding: 4rem 2rem; background: #f8fafc;">
+                        <div class="framer-1a45ook" data-framer-name="Padding" style="max-width: 1200px; margin: 0 auto;">
+                            <div class="framer-4ehilk" data-framer-name="Head of Content">
+                                <div class="framer-1pbkgz4" data-framer-name="Left Content">
+                                    <div class="framer-1omz9yc"
+                                        style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:none"
+                                        data-framer-component-type="RichTextContainer">
+                                        <!-- UPDATED: Voices of Our Success Curve heading -->
+                                        <h2 class="framer-text framer-styles-preset-9astza" data-styles-preset="lSq3o7rba"
+                                            style="color: #1e40af; font-size: 2.5rem; text-align: center; margin-bottom: 1rem;">
+                                            Voices of Our Success Curve</h2>
+                                    </div>
+                                    <div class="framer-d3un3b"
+                                        style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:none"
+                                        data-framer-component-type="RichTextContainer">
+                                        <!-- UPDATED: Description updated for KARV -->
+                                        <p class="framer-text framer-styles-preset-uv2xbx" data-styles-preset="T35DOVsKp"
+                                            style="--framer-text-color:var(--token-faef328b-f6c6-4e5b-b0b0-e56c23d76de5, rgb(96, 96, 96)); text-align: center; font-size: 1.1rem;">
+                                            At KARV Group, we are dedicated to shaping your success curve through innovative solutions and trusted partnerships. Hear from our valued client and respected industry professionals who have witnessed our impact firsthand.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- UPDATED: Testimonials updated for KARV with two sections -->
+                            <div style="margin-top: 3rem;">
+                                <!-- Client Appreciation Section -->
+                                <div style="margin-bottom: 4rem;">
+                                    <h3 style="text-align: center; font-size: 1.8rem; margin-bottom: 2rem; color: #1e40af; font-weight: 600;">Client Appreciation Section</h3>
+                                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 2rem;">
+                                        <div style="background: white; padding: 2rem; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+                                            <h5 style="color: #374151; font-size: 1.1rem; line-height: 1.6; margin-bottom: 1.5rem; font-style: italic;">
+                                                "KARV Group consistently delivers on time — even during the busiest seasons. Their reliability in port operations is unmatched."
+                                            </h5>
+                                            <div style="display: flex; align-items: center; gap: 1rem;">
+                                                <div style="width: 50px; height: 50px; background: #1e40af; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold;">
+                                                    R
+                                                </div>
+                                                <div>
+                                                    <p style="margin: 0; font-weight: 600; color: #1e40af;">Rajesh Kumar</p>
+                                                    <p style="margin: 0; color: #6b7280; font-size: 0.9rem;">Logistics Manager, Gujarat Ports</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div style="background: white; padding: 2rem; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+                                            <h5 style="color: #374151; font-size: 1.1rem; line-height: 1.6; margin-bottom: 1.5rem; font-style: italic;">
+                                                "What I love most is the real-time visibility KARV provides. I always know where my cargo is, no surprises in the supply chain."
+                                            </h5>
+                                            <div style="display: flex; align-items: center; gap: 1rem;">
+                                                <div style="width: 50px; height: 50px; background: #3b82f6; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold;">
+                                                    P
+                                                </div>
+                                                <div>
+                                                    <p style="margin: 0; font-weight: 600; color: #1e40af;">Priya Sharma</p>
+                                                    <p style="margin: 0; color: #6b7280; font-size: 0.9rem;">Supply Chain Director, Manufacturing Ltd</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div style="background: white; padding: 2rem; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+                                            <h5 style="color: #374151; font-size: 1.1rem; line-height: 1.6; margin-bottom: 1.5rem; font-style: italic;">
+                                                "KARV helped us optimize routes and reduce shipping costs by over 20%. Their strategic approach to critical minerals is exceptional."
+                                            </h5>
+                                            <div style="display: flex; align-items: center; gap: 1rem;">
+                                                <div style="width: 50px; height: 50px; background: #059669; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold;">
+                                                    A
+                                                </div>
+                                                <div>
+                                                    <p style="margin: 0; font-weight: 600; color: #1e40af;">Arjun Patel</p>
+                                                    <p style="margin: 0; color: #6b7280; font-size: 0.9rem;">CEO, Minerals Trading Corp</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Professional Endorsements Section -->
+                                <div>
+                                    <h3 style="text-align: center; font-size: 1.8rem; margin-bottom: 2rem; color: #1e40af; font-weight: 600;">Professional Endorsements Section</h3>
+                                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 2rem;">
+                                        <div style="background: linear-gradient(135deg, #F8FAFC, #E2E8F0); padding: 2rem; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); border-left: 4px solid #1e40af;">
+                                            <h5 style="color: #374151; font-size: 1.1rem; line-height: 1.6; margin-bottom: 1.5rem; font-style: italic;">
+                                                "Amit's expertise in port operations and critical minerals consulting is unparalleled. His strategic vision has consistently delivered exceptional results for complex projects."
+                                            </h5>
+                                            <div style="display: flex; align-items: center; gap: 1rem;">
+                                                <div style="width: 50px; height: 50px; background: #D97706; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold;">
+                                                    S
+                                                </div>
+                                                <div>
+                                                    <p style="margin: 0; font-weight: 600; color: #1e40af;">Suresh Menon</p>
+                                                    <p style="margin: 0; color: #6b7280; font-size: 0.9rem;">Senior Executive, Port Operations</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div style="background: linear-gradient(135deg, #F8FAFC, #E2E8F0); padding: 2rem; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); border-left: 4px solid #059669;">
+                                            <h5 style="color: #374151; font-size: 1.1rem; line-height: 1.6; margin-bottom: 1.5rem; font-style: italic;">
+                                                "Working with Amit on rare earth minerals projects has been exceptional. His deep understanding of the supply chain and regulatory landscape is remarkable."
+                                            </h5>
+                                            <div style="display: flex; align-items: center; gap: 1rem;">
+                                                <div style="width: 50px; height: 50px; background: #8B5CF6; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold;">
+                                                    M
+                                                </div>
+                                                <div>
+                                                    <p style="margin: 0; font-weight: 600; color: #1e40af;">Dr. Meera Agarwal</p>
+                                                    <p style="margin: 0; color: #6b7280; font-size: 0.9rem;">Materials Science Consultant</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div style="background: linear-gradient(135deg, #F8FAFC, #E2E8F0); padding: 2rem; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); border-left: 4px solid #DC2626;">
+                                            <h5 style="color: #374151; font-size: 1.1rem; line-height: 1.6; margin-bottom: 1.5rem; font-style: italic;">
+                                                "Amit's strategic approach to business development in critical minerals sector has been instrumental in securing key partnerships and government contracts."
+                                            </h5>
+                                            <div style="display: flex; align-items: center; gap: 1rem;">
+                                                <div style="width: 50px; height: 50px; background: #DC2626; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold;">
+                                                    V
+                                                </div>
+                                                <div>
+                                                    <p style="margin: 0; font-weight: 600; color: #1e40af;">Vikram Singh</p>
+                                                    <p style="margin: 0; color: #6b7280; font-size: 0.9rem;">Business Development Director</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- UPDATED: Partner with us Section -->
+                    <section id="partner" style="padding: 4rem 2rem; background: #1e40af; color: white;">
+                        <div style="max-width: 1000px; margin: 0 auto; text-align: center;">
+                            <h2 style="font-size: 2.5rem; margin-bottom: 2rem; color: #fbbf24;">Partner with Us</h2>
+                            <p style="font-size: 1.2rem; margin-bottom: 3rem; line-height: 1.5;">
+                                Ready to craft your growth curve? Let's discuss how KARV Group can drive your success in logistics and critical minerals value chain.
+                            </p>
+
+                            <!-- UPDATED: Complete contact information -->
+                            <div class="contact-info" style="background: white; color: #374151; padding: 3rem; border-radius: 16px; margin: 2rem 0;">
+                                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; text-align: left;">
+                                    <div>
+                                        <h3 style="color: #1e40af; margin-bottom: 1rem;">Contact Information</h3>
+                                        <!-- UPDATED: Corrected mobile number -->
+                                        <p style="margin: 0.5rem 0;"><strong>Mobile:</strong> +91 90990 022655</p>
+                                        <!-- UPDATED: Added landline number -->
+                                        <p style="margin: 0.5rem 0;"><strong>Landline:</strong> +91 79 45045866</p>
+                                        <!-- UPDATED: Official email IDs -->
+                                        <p style="margin: 0.5rem 0;"><strong>Email:</strong> amitgautam@karv-group.com</p>
+                                        <p style="margin: 0.5rem 0;"><strong>Business Development:</strong> bd_karv@outlook.com</p>
+                                        <!-- UPDATED: Website -->
+                                        <p style="margin: 0.5rem 0;"><strong>Website:</strong> www.karv-group.com</p>
+                                    </div>
+
+                                    <div>
+                                        <h3 style="color: #1e40af; margin-bottom: 1rem;">Business Hours</h3>
+                                        <p style="margin: 0.5rem 0;"><strong>Monday - Saturday:</strong> 09:30 - 18:30</p>
+                                        <p style="margin: 0.5rem 0;"><strong>Sunday:</strong> Closed</p>
+                                        <p style="margin: 0.5rem 0; font-style: italic; color: #6b7280;">Available on mobile and email on Sunday</p>
+                                    </div>
+                                </div>
+
+                                <!-- UPDATED: Office address with map -->
+                                <div style="margin-top: 2rem;">
+                                    <h3 style="color: #1e40af; margin-bottom: 1rem;">Office Address</h3>
+                                    <p style="line-height: 1.6; margin-bottom: 1rem;">
+                                        Office no. 312, Pehel Lake View, Behind Shaligram Lake View, 
+                                        Near Vaishnodevi Temple, Khoraj, Ahmedabad-382481
+                                    </p>
+                                    
+                                    <!-- UPDATED: Google Map integration -->
+                                    <div class="map-container">
+                                        <iframe 
+                                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3671.2573943425877!2d72.58000731536688!3d23.04047362012748!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e85bd4dbf79b7%3A0x9fc8e8e3b95e3a44!2sKhoraj%2C%20Ahmedabad%2C%20Gujarat%20382481!5e0!3m2!1sen!2sin!4v1642234567890!5m2!1sen!2sin"
+                                            width="100%" 
+                                            height="300" 
+                                            style="border:0; border-radius: 8px;" 
+                                            allowfullscreen="" 
+                                            loading="lazy" 
+                                            referrerpolicy="no-referrer-when-downgrade">
+                                        </iframe>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- UPDATED: Contact Details -->
+                            <div style="margin-top: 3rem; background: rgba(255,255,255,0.1); padding: 2rem; border-radius: 12px;">
+                                <p style="margin: 0; font-size: 1.1rem; line-height: 1.5;">
+                                    312, Pehel Lake View, Near VaishnoDevi Temple, Ahmedabad-382481<br>
+                                    M: +91 90990 022655 | Landline: 079-45045 866<br>
+                                    E: amitgautam@karv-group.com | bd_karv@outlook.com<br>
+                                    W: www.karv-group.com
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- UPDATED: Footer -->
+                    <footer style="background: #374151; color: white; padding: 3rem 2rem; text-align: center;">
+                        <div style="max-width: 1200px; margin: 0 auto;">
+                            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; margin-bottom: 2rem; text-align: left;">
+                                <div>
+                                    <h3 style="color: #fbbf24; margin-bottom: 1rem;">KARV Group</h3>
+                                    <p style="line-height: 1.6; margin-bottom: 1rem;">
+                                        Carving Your Growth Curve through expert consulting and operational services in logistics and critical minerals.
+                                    </p>
+                                    <p style="margin: 0; font-style: italic;">"Navigating Growth through Expertise"</p>
+                                </div>
+                                
+                                <div>
+                                    <h4 style="color: #fbbf24; margin-bottom: 1rem;">Our Entities</h4>
+                                    <p style="margin: 0.3rem 0;">KARV Enterprises (KE)</p>
+                                    <p style="margin: 0.3rem 0;">KARV Consultancy Services (KCS)</p>
+                                </div>
+                                
+                                <div>
+                                    <h4 style="color: #fbbf24; margin-bottom: 1rem;">Our Verticals</h4>
+                                    <p style="margin: 0.3rem 0;">Port Operations & Freight Forwarding</p>
+                                    <p style="margin: 0.3rem 0;">Critical Minerals & REPM</p>
+                                </div>
+                            </div>
+                            
+                            <div style="border-top: 1px solid #4b5563; padding-top: 2rem; text-align: center;">
+                                <p style="margin: 0; color: #9ca3af;">
+                                    © 2024 KARV Group. All rights reserved. | Designed for excellence in logistics and critical minerals.
+                                </p>
+                            </div>
+                        </div>
+                    </footer>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Scripts would go here -->
+        <script>
+            // Simple smooth scrolling for navigation
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                });
+            });
+        </script>
+    </body>
+
+    </html>
